@@ -16,7 +16,7 @@ php bin/magento cache:clean
 ## Manually
 To install this language package manually you need access to your server file system.
 * Download the zip file [here](https://github.com/Magento2Translations/language_uk_ua/archive/master.zip).
-* Upload the contents to `<your magento path>/app/i18n/magento2translations/uk_UA`.
+* Upload the contents to `<your magento path>/app/i18n/magento2translations/language_uk_ua`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/uk_UA/uk_UA.csv`.
 * Go to your Magento admin panel and clear the caches.
 
