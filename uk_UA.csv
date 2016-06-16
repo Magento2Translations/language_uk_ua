@@ -1148,6 +1148,7 @@ Filter,Фільтр,module,Magento_ImportExport
 Status,Статус,module,Magento_ImportExport
 Delete,Видалити,module,Magento_ImportExport
 Never,Ніколи,module,Magento_Indexer
+Integrations,Інтеграції,module,Magento_Integration
 Save,Зберегти,module,Magento_Integration
 General,Загальні,module,Magento_Integration
 Name,Ім'я,module,Magento_Integration
@@ -1167,9 +1168,11 @@ Remove,Вилучити,module,Magento_LayeredNavigation
 "Shop By","Продукція за",module,Magento_LayeredNavigation
 "Clear All","Очистити всі",module,Magento_LayeredNavigation
 "Shopping Options","Варіанти товарів",module,Magento_LayeredNavigation
+Partners,Партнери,module,Magento_Marketplace
 "What's this?","Що це?",module,Magento_Msrp
 Price,Ціна,module,Magento_Msrp
 "Add to Cart","Додати в кошик",module,Magento_Msrp
+"Change Billing Address","Змінити платіжну адресу",module,Magento_Multishipping
 Total,Загалом,module,Magento_Multishipping
 Product,Продукт,module,Magento_Multishipping
 Qty,Кіл-ть,module,Magento_Multishipping
