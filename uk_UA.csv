@@ -1210,7 +1210,6 @@ Discount,Знижка,module,Magento_Payment
 Shipping,Доставка,module,Magento_Payment
 Yes,Так,module,Magento_Payment
 No,Ні,module,Magento_Payment
-"Start Date","Дата Початку",module,Magento_Payment
 "What is this?","Що це?",module,Magento_Payment
 Email,"Електронна пошта",module,Magento_Paypal
 "First Name",Ім'я,module,Magento_Paypal
