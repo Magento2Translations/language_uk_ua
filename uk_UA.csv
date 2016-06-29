@@ -487,18 +487,23 @@ Always,Завжди,module,Magento_Captcha
 "Product Name","Назва товару",module,Magento_CatalogInventory
 Qty,Кіл-ть,module,Magento_CatalogInventory
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_CatalogRule
+"Edit Rule '%1'","Редагування правила '%1'",module,Magento_CatalogRule
 Actions,Дії,module,Magento_CatalogRule
 Apply,Застосувати,module,Magento_CatalogRule
 "Discount Amount","Сума Знижки",module,Magento_CatalogRule
+"Subproduct discounts","Знижки на підпродукти",module,Magento_CatalogRule
 No,Ні,module,Magento_CatalogRule
 Yes,Так,module,Magento_CatalogRule
+"Discard subsequent rules","Скасувати наступні правила",module,Magento_CatalogRule
 "General Information","Загальна інформація",module,Magento_CatalogRule
+"Rule Name","Назва правила",module,Magento_CatalogRule
 Description,Описання,module,Magento_CatalogRule
 Status,Статус,module,Magento_CatalogRule
 Websites,Веб-сайти,module,Magento_CatalogRule
 "Customer Groups","Групи Покупців",module,Magento_CatalogRule
 From,Від,module,Magento_CatalogRule
 To,До,module,Magento_CatalogRule
+Priority,Пріоритет,module,Magento_CatalogRule
 Type,Тип,module,Magento_CatalogRule
 Product,Продукт,module,Magento_CatalogRule
 Catalog,Каталог,module,Magento_CatalogRule
