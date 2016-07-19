@@ -1226,6 +1226,7 @@ Home,Головна,module,Magento_Cms
 Pages,Сторінки,module,Magento_Cms
 Edit,Редагувати,module,Magento_Cms
 Delete,Видалити,module,Magento_Cms
+Details,Деталі,module,Magento_Cms
 "Page not found.","Сторінка не знайдена.",module,Magento_Config
 title,назва,module,Magento_Config
 No,Ні,module,Magento_Config
