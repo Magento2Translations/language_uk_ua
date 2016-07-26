@@ -1249,6 +1249,8 @@ Name,Ім'я,module,Magento_Contact
 Email,"Електронна пошта",module,Magento_Contact
 Daily,Щоденно,module,Magento_Cron
 Reset,Очистити,module,Magento_CurrencySymbol
+"Sign Out",Вийти,module,Magento_Customer
+"Sign In",Увійти,module,Magento_Customer
 "Create Order","Створити Замовлення",module,Magento_Customer
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Customer
 Back,Назад,module,Magento_Customer
@@ -1779,7 +1781,7 @@ Password:,Пароль:,module,Magento_Customer
 "View past orders","Переглянути останні замовлення",module,Magento_Customer
 "Billing Info","Інформація щодо сплати",module,Magento_Sales
 "Shipping Info","Інформація щодо доставки",module,Magento_Sales
-"Welcome to %store_name.","Ласкаво просимо на %store_name.",theme,frontend/Magento/luma
+"Welcome to %store_name.","Ласкаво просимо до %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Для входу на наш сайт використовуйте ці облікові дані під час оформлення замовлення або на <a href=""%customer_url"">Мій аккаунт </a> сторінці:",theme,frontend/Magento/luma
 Email:,"Електронна пошта:",theme,frontend/Magento/luma
 Password:,Пароль:,theme,frontend/Magento/luma
@@ -2246,4 +2248,6 @@ Quantity,Кількість,module,Magento_Wishlist
 Action,Дія,module,Magento_Wishlist
 Configure,Налаштувати,module,Magento_Wishlist
 Delete,Видалити,module,Magento_Wishlist
+"Account Dashboard","Приладова дошка облікового запису",theme,frontend/Magento/blank
 "Account Information","Інформація про обліковий запис",theme,frontend/Magento/blank
+Account,"Обліковий запис",theme,frontend/Magento/blank
