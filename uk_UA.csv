@@ -1251,7 +1251,17 @@ Daily,Щоденно,module,Magento_Cron
 Reset,Очистити,module,Magento_CurrencySymbol
 "Sign Out",Вийти,module,Magento_Customer
 "Sign In",Увійти,module,Magento_Customer
+"You have not set a default shipping address.","Ви не налаштували адресу доставки за промовчанням.",module,Magento_Customer
+"You have not set a default billing address.","Ви не налаштували адресу виставлення рахунка за промовчанням.",module,Magento_Customer
+"Address Book","Адресна книга",module,Magento_Customer
+"Edit Address","Редагувати адресу",module,Magento_Customer
+"Add New Address","Додати нову адресу",module,Magento_Customer
+region,регіон,module,Magento_Customer
 "Create Order","Створити Замовлення",module,Magento_Customer
+"Save Customer","Зберегти покупця",module,Magento_Customer
+"Delete Customer","Видалити покупця",module,Magento_Customer
+"Reset Password","Скинути пароль",module,Magento_Customer
+"New Customer","Новий покупець",module,Magento_Customer
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Customer
 Back,Назад,module,Magento_Customer
 "Please select","Будь ласка, виберіть",module,Magento_Customer
@@ -1272,6 +1282,8 @@ Never,Ніколи,module,Magento_Customer
 "Days in Wish List","Днів у Списку Бажань",module,Magento_Customer
 No,Ні,module,Magento_Customer
 Yes,Так,module,Magento_Customer
+"Customer Login","Вхід покупця",module,Magento_Customer
+"Create New Customer Account","Створити новий обліковий запис покупця",module,Magento_Customer
 "Account Information","Інформація про обліковий запис",module,Magento_Customer
 "My Account","Мій Аккаунт",module,Magento_Customer
 Customers,Покупці,module,Magento_Customer
@@ -1294,6 +1306,7 @@ Email,"Електронна пошта",module,Magento_Customer
 Save,Зберегти,module,Magento_Customer
 Submit,Підтвердити,module,Magento_Customer
 Login,Увійти,module,Magento_Customer
+"Create an Account","Створити обліковий запис",module,Magento_Customer
 "New Customers","Нові Покупці",module,Magento_Customer
 Gender,Стать,module,Magento_Customer
 Name,Ім'я,module,Magento_Customer
