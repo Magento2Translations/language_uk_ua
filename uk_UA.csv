@@ -943,6 +943,7 @@ Admin,Адміністратор,module,Magento_Customer
 "Customer Group","Група Покупців",module,Magento_Customer
 Edit,Редагувати,module,Magento_Customer
 Customer,Покупець,module,Magento_Customer
+"Personal Information","Персональна інформація",module,Magento_Customer
 "Web Site",Веб-сайт,module,Magento_Customer
 Store,Магазин,module,Magento_Customer
 "Manage Addresses","Керувати адресами",module,Magento_Customer
