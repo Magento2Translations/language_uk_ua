@@ -1245,8 +1245,13 @@ Actions,Дії,module,Magento_ConfigurableProduct
 Cancel,Скасувати,module,Magento_ConfigurableProduct
 "Page not found.","Сторінка не знайдена.",module,Magento_Contact
 "* Required Fields","* Обов'язкові поля",module,Magento_Contact
+"Write Us","Напишіть нам",module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.","Напишіть нам коротку нотатку, і ми зв'яжемося з Вами якнайшвидше.",module,Magento_Contact
 Name,Ім'я,module,Magento_Contact
 Email,"Електронна пошта",module,Magento_Contact
+"Phone Number","Номер телефону",module,Magento_Contact
+"What’s on your mind?","Що у Вас на думці?",module,Magento_Contact
+Submit,Надіслати,module,Magento_Contact
 Daily,Щоденно,module,Magento_Cron
 Reset,Очистити,module,Magento_CurrencySymbol
 "Sign Out",Вийти,module,Magento_Customer
@@ -1631,6 +1636,7 @@ No,Ні,module,Magento_Search
 Yes,Так,module,Magento_Search
 Store,Магазин,module,Magento_Search
 Reports,Звіти,module,Magento_Search
+"Search entire store here...","Шукайте тут...",module,Magento_Search
 "Page not found.","Сторінка не знайдена.",module,Magento_SendFriend
 Remove,Вилучити,module,Magento_SendFriend
 Name,Ім'я,module,Magento_SendFriend
