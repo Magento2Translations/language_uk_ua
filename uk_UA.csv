@@ -903,6 +903,7 @@ Cancel,Скасувати,module,Magento_ConfigurableProduct
 "* Required Fields","* Обов'язкові поля",module,Magento_Contact
 Name,Ім'я,module,Magento_Contact
 Email,"Електронна пошта",module,Magento_Contact
+Submit,Надіслати,module,Magento_Contact
 Daily,Щоденно,module,Magento_Cron
 Reset,Очистити,module,Magento_CurrencySymbol
 "You have not set a default shipping address.","Ви не налаштували адресу доставки за промовчанням.",module,Magento_Customer
