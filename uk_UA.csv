@@ -1668,6 +1668,13 @@ Overview,Огляд,module,Magento_Catalog
 Details,Докладно,module,Magento_Catalog
 "Require Customer To Be Logged In To Checkout","Для розрахунку необхідно, щоб клієнт увійшов до системи",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
+Contacts,Контакти,module,Magento_Contact
+"Contact Us","Зв'яжіться з нами",module,Magento_Contact
+"Enable Contact Us","Увімкнути Зв'яжіться з нами",module,Magento_Contact
+"Email Options","Опції електронної пошти",module,Magento_Contact
+"Send Emails To","Надсилати електронні листи на",module,Magento_Contact
+"Email Sender","Відправник електронного листа",module,Magento_Contact
+"Email Template","Шаблон електронного листа",module,Magento_Contact
 Group,Група,module,Magento_Customer
 Phone,Телефон,module,Magento_Customer
 "First Name",Ім'я,module,Magento_Customer
