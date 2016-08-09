@@ -1589,6 +1589,10 @@ Remove,Вилучити,theme,frontend/Magento/luma
 "Shopping Options","Варіанти товарів",theme,frontend/Magento/luma
 Items,Елементи,module,Magento_Checkout
 Total:,Всього:,module,Magento_Checkout
+"Name: %name","Ім'я: %name",module,Magento_Contact
+"Email: %email","Електронна пошта: %email",module,Magento_Contact
+"Phone Number: %telephone","Номер телефону: %telephone",module,Magento_Contact
+"Comment: %comment","Коментар: %comment",module,Magento_Contact
 "Welcome to %store_name.","Ласкаво просимо на %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Для входу на наш сайт використовуйте ці облікові дані під час оформлення замовлення або на <a href=""%customer_url"">Мій аккаунт </a> сторінці:",module,Magento_Customer
 Email:,"Електронна пошта:",module,Magento_Customer
@@ -1956,6 +1960,13 @@ Shipping,Доставка,module,Magento_Checkout
 Cancel,Скасувати,module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 Status,Статус,module,Magento_ConfigurableProduct
+Contacts,Контакти,module,Magento_Contact
+"Contact Us","Зв'яжіться з нами",module,Magento_Contact
+"Enable Contact Us","Увімкнути Зв'яжіться з нами",module,Magento_Contact
+"Email Options","Опції електронної пошти",module,Magento_Contact
+"Send Emails To","Надсилати електронні листи на",module,Magento_Contact
+"Email Sender","Відправник електронного листа",module,Magento_Contact
+"Email Template","Шаблон електронного листа",module,Magento_Contact
 Group,Група,module,Magento_Customer
 Phone,Телефон,module,Magento_Customer
 "First Name",Ім'я,module,Magento_Customer
