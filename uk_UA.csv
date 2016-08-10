@@ -33,31 +33,31 @@ Close,Закрити,module,Magento_AdminNotification
 "Major System Messages","Значні Системні Повідомлення",module,Magento_AdminNotification
 "System messages","Системні повідомлення",module,Magento_AdminNotification
 "You created the order.","Ви створили замовлення.",module,Magento_Authorizenet
-"Order saving error: %1","Помилка зберігання замовлення: %1",module,Magento_Authorizenet
+"Order saving error: %1","Помилка збереження замовлення: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Будь ласка, виберіть спосіб оплати.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Кредитна картка: xxxx-%1",module,Magento_Authorizenet
-"amount %1","всього %1",module,Magento_Authorizenet
+"amount %1","обсяг %1",module,Magento_Authorizenet
 authorize,авторизувати,module,Magento_Authorizenet
-"authorize and capture","авторизувати та захопити",module,Magento_Authorizenet
-capture,захопити,module,Magento_Authorizenet
-refund,"повернення грошей",module,Magento_Authorizenet
-void,нічого,module,Magento_Authorizenet
+"authorize and capture","авторизувати і блокувати",module,Magento_Authorizenet
+capture,блокувати,module,Magento_Authorizenet
+refund,повернення,module,Magento_Authorizenet
+void,недійсний,module,Magento_Authorizenet
 "Gateway error: %1","Помилка шлюзу: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","Щось пішло не так у платіжному шлюзі.",module,Magento_Authorizenet
-"Invalid amount for capture.","Недопустима сума для блокування.",module,Magento_Authorizenet
-"Payment capturing error.","Помилка захоплення платежу.",module,Magento_Authorizenet
+"Invalid amount for capture.","Неприпустима сума для блокування.",module,Magento_Authorizenet
+"Payment capturing error.","Помилка блокування платежу.",module,Magento_Authorizenet
 "Invalid transaction ID.","Недійсний ідентифікатор транзакції.",module,Magento_Authorizenet
 "Payment voiding error.","Помилка анулювання платежу.",module,Magento_Authorizenet
-"Invalid amount for refund.","Неприпустима сума повернення коштів.",module,Magento_Authorizenet
+"Invalid amount for refund.","Неприпустима сума для повернення.",module,Magento_Authorizenet
 "Payment refunding error.","Помилка повернення платежу.",module,Magento_Authorizenet
-"The transaction was declined because the response hash validation failed.","Транзакцію було відхилено через невдалу валідацію хешу відповіді.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Транзакцію було відхилено через невдалу валідацію хеша відповіді.",module,Magento_Authorizenet
 "There was a payment authorization error.","Сталася помилка авторизації платежу.",module,Magento_Authorizenet
-"Authorize Only","Тільки Авторизувати",module,Magento_Authorizenet
-"Authorize and Capture","Авторизувати та Захопити",module,Magento_Authorizenet
-"Credit Card Type","Тип Кредитної Картки",module,Magento_Authorizenet
-"Credit Card Number","Номер Кредитної Картки",module,Magento_Authorizenet
-"Expiration Date","Дата Збігає",module,Magento_Authorizenet
-"Card Verification Number","Номер Підтвердження Картки",module,Magento_Authorizenet
+"Authorize Only","Тільки авторизувати",module,Magento_Authorizenet
+"Authorize and Capture","Авторизувати і блокувати",module,Magento_Authorizenet
+"Credit Card Type","Тип кредитної картки",module,Magento_Authorizenet
+"Credit Card Number","Номер кредитної картки",module,Magento_Authorizenet
+"Expiration Date","Дійсна до",module,Magento_Authorizenet
+"Card Verification Number","Верифікаційний номер картки",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Недійсний Ключ Форми. Будь-ласка, оновіть сторінку.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Ви ввели недійсний Секретний Ключ. Будь-ласка, оновіть сторінку.",module,Magento_Backend
 "Cache Storage Management","Управління Сховищем Кешу",module,Magento_Backend
