@@ -393,12 +393,12 @@ Actions,Дії,module,Magento_Braintree
 Yes,Так,module,Magento_Braintree
 No,Ні,module,Magento_Braintree
 Edit,Редагувати,module,Magento_Braintree
-"Percent Discount","Процент знижки",module,Magento_Bundle
+"Percent Discount","Відсоткова знижка",module,Magento_Bundle
 "-- Select --","-- Виберіть --",module,Magento_Bundle
 Dynamic,Динамічна,module,Magento_Bundle
 Fixed,Фіксована,module,Magento_Bundle
 "Create New Option","Створити нову опцію",module,Magento_Bundle
-"Bundle Items","Елементи комплекту",module,Magento_Bundle
+"Bundle Items","Позиції комплекту",module,Magento_Bundle
 "Add Products to Option","Додати товари до опції",module,Magento_Bundle
 Close,Закрити,module,Magento_Bundle
 "Delete Option","Видалити опцію",module,Magento_Bundle
@@ -407,7 +407,7 @@ Product,Товар,module,Magento_Bundle
 SKU,Артикул,module,Magento_Bundle
 Price,Ціна,module,Magento_Bundle
 Delete,Видалити,module,Magento_Bundle
-"Use Default Value","Використовувати типове значення",module,Magento_Bundle
+"Use Default Value","Використовувати значення за промовчанням",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Немає визначеного візуалізатора для типу опції ""%1"".",module,Magento_Bundle
 "As Low as","Така ж мала, як і",module,Magento_Bundle
 "Price Range","Ціновий діапазон",module,Magento_Bundle
@@ -419,12 +419,12 @@ Percent,Відсоток,module,Magento_Bundle
 None,Нічого,module,Magento_Bundle
 "Choose a selection...","Вибрати добірку...",module,Magento_Bundle
 "Ship Bundle Items","Відправляти комплектні позиції",module,Magento_Bundle
-Separately,Окремо,module,Magento_Bundle
+Separately,Порізно,module,Magento_Bundle
 Together,Разом,module,Magento_Bundle
 "Option Title","Назва опції",module,Magento_Bundle
 "Store View Title","Заголовок виду крамниці",module,Magento_Bundle
 "Input Type","Тип вводу",module,Magento_Bundle
-Required,"Є обов'язковим",module,Magento_Bundle
+Required,Обов'язкове,module,Magento_Bundle
 Position,Позиція,module,Magento_Bundle
 "There are no products in this option.","Немає товарів у цій опції.",module,Magento_Bundle
 "New Option","Нова опція",module,Magento_Bundle
@@ -505,6 +505,7 @@ From,Від,module,Magento_CatalogRule
 To,До,module,Magento_CatalogRule
 Priority,Пріоритет,module,Magento_CatalogRule
 Type,Тип,module,Magento_CatalogRule
+SKU,Артикул,module,Magento_CatalogRule
 Product,Продукт,module,Magento_CatalogRule
 Catalog,Каталог,module,Magento_CatalogRule
 "Wrong rule specified.","Вказані правила не вірні",module,Magento_CatalogRule
@@ -921,6 +922,7 @@ region,регіон,module,Magento_Customer
 Back,Назад,module,Magento_Customer
 "Please select","Будь ласка, виберіть",module,Magento_Customer
 Product,Продукт,module,Magento_Customer
+SKU,Артикул,module,Magento_Customer
 Quantity,Кількість,module,Magento_Customer
 Price,Ціна,module,Magento_Customer
 Total,Загалом,module,Magento_Customer
@@ -970,6 +972,7 @@ Title,Назва,module,Magento_Downloadable
 Price,Ціна,module,Magento_Downloadable
 File,Файл,module,Magento_Downloadable
 Delete,Видалити,module,Magento_Downloadable
+SKU,Артикул,module,Magento_Downloadable
 Availability,Наявність,module,Magento_Downloadable
 "In stock",Залишок,module,Magento_Downloadable
 "Out of stock","Немає у наявності",module,Magento_Downloadable
@@ -995,6 +998,7 @@ Message,Повідомлення,module,Magento_GiftMessage
 Cancel,Скасувати,module,Magento_GiftMessage
 OK,ОК,module,Magento_GiftMessage
 "Out of stock","Немає у наявності",module,Magento_GroupedProduct
+SKU,Артикул,module,Magento_GroupedProduct
 "Product Name","Назва Продукту",module,Magento_GroupedProduct
 Price,Ціна,module,Magento_GroupedProduct
 Qty,Кіл-ть,module,Magento_GroupedProduct
@@ -1104,6 +1108,7 @@ No,Ні,module,Magento_Reports
 Refresh,Оновити,module,Magento_Reports
 Product,Продукт,module,Magento_Reports
 Link,Посилання,module,Magento_Reports
+SKU,Артикул,module,Magento_Reports
 Total,Загалом,module,Magento_Reports
 Price,Ціна,module,Magento_Reports
 Views,Перегляди,module,Magento_Reports
@@ -1245,6 +1250,7 @@ kg,кг,module,Magento_Shipping
 Title,Назва,module,Magento_Shipping
 Action,Дія,module,Magento_Shipping
 "Are you sure?","Ви впевнені?",module,Magento_Shipping
+SKU,Артикул,module,Magento_Shipping
 Info:,Інформація:,module,Magento_Shipping
 N/A,Н/Д,module,Magento_Shipping
 Path,Шлях,module,Magento_Sitemap
@@ -1284,6 +1290,7 @@ Minute,Хвилина,module,Magento_Theme
 status,статус,module,Magento_Ups
 None,Жоден,module,Magento_Ups
 Name,Ім'я,module,Magento_UrlRewrite
+SKU,Артикул,module,Magento_UrlRewrite
 Status,Статус,module,Magento_UrlRewrite
 Title,Назва,module,Magento_UrlRewrite
 Reset,Очистити,module,Magento_UrlRewrite
@@ -1370,27 +1377,27 @@ Severity,Суворість,module,Magento_AdminNotification
 "Date Added","Дата додавання",module,Magento_AdminNotification
 Message,Повідомлення,module,Magento_AdminNotification
 Actions,Дії,module,Magento_AdminNotification
-"Authorize.net Direct Post","Пряме Розміщення Authorize.net",module,Magento_Authorizenet
+"Authorize.net Direct Post","Пряме подання Authorize.net",module,Magento_Authorizenet
 Enabled,Ввімкнено,module,Magento_Authorizenet
-"Payment Action","Дія Оплати",module,Magento_Authorizenet
+"Payment Action","Дія оплати",module,Magento_Authorizenet
 Title,Назва,module,Magento_Authorizenet
-"API Login ID","Ідентифікатор Логіну API",module,Magento_Authorizenet
-"Transaction Key","Ключ Транзакції",module,Magento_Authorizenet
-"Merchant MD5","Продавець MD5",module,Magento_Authorizenet
-"New Order Status","Статус Нового Замовлення",module,Magento_Authorizenet
-"Test Mode","Тестовий Режим",module,Magento_Authorizenet
-"Gateway URL","URL-адреса Шлюзу",module,Magento_Authorizenet
-"Accepted Currency","Валюти, що Приймаються",module,Magento_Authorizenet
+"API Login ID","Ідентифікатор логіну API",module,Magento_Authorizenet
+"Transaction Key","Ключ транзакції",module,Magento_Authorizenet
+"Merchant MD5","MD5 мерчанта",module,Magento_Authorizenet
+"New Order Status","Статус нового замовлення",module,Magento_Authorizenet
+"Test Mode","Тестовий режим",module,Magento_Authorizenet
+"Gateway URL","URL шлюзу",module,Magento_Authorizenet
+"Accepted Currency","Валюта, що приймається",module,Magento_Authorizenet
 Debug,Відладка,module,Magento_Authorizenet
-"Email Customer","Написати Листа Покупцую",module,Magento_Authorizenet
-"Merchant's Email","Електронна Пошта Продавця",module,Magento_Authorizenet
-"Credit Card Types","Типи Кредитних Карток",module,Magento_Authorizenet
-"Credit Card Verification","Перевірка Кредитної Карти",module,Magento_Authorizenet
-"Payment from Applicable Countries","Платіж з Відповідних Країн",module,Magento_Authorizenet
-"Payment from Specific Countries","Платіж з Конкретних Країн",module,Magento_Authorizenet
-"Minimum Order Total","Мінімальний Підсумок Замовлення",module,Magento_Authorizenet
-"Maximum Order Total","Максимальний Підсумок Замовлення",module,Magento_Authorizenet
-"Sort Order","Порядок Сортування",module,Magento_Authorizenet
+"Email Customer","Написати ел. листа покупцеві",module,Magento_Authorizenet
+"Merchant's Email","Електронна пошта мерчанта",module,Magento_Authorizenet
+"Credit Card Types","Типи кредитної картки",module,Magento_Authorizenet
+"Credit Card Verification","Перевірка кредитної картки",module,Magento_Authorizenet
+"Payment from Applicable Countries","Платіж із відповідних країн",module,Magento_Authorizenet
+"Payment from Specific Countries","Платіж із конкретних країн",module,Magento_Authorizenet
+"Minimum Order Total","Мінімальний підсумок замовлення",module,Magento_Authorizenet
+"Maximum Order Total","Максимальний підсумок замовлення",module,Magento_Authorizenet
+"Sort Order","Порядок сортування",module,Magento_Authorizenet
 Services,Сервіси,module,Magento_Backend
 Advanced,Додатково,module,Magento_Backend
 "Disable Modules Output","Вимкнути Виведення Модулів",module,Magento_Backend
