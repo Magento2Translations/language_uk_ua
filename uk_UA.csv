@@ -412,7 +412,7 @@ Delete,Видалити,module,Magento_Bundle
 "As Low as","Така ж мала, як і",module,Magento_Bundle
 "Price Range","Ціновий діапазон",module,Magento_Bundle
 "Please specify product option(s).","Будь ласка, вкажіть опцію(ї) товару.",module,Magento_Bundle
-"The required options you selected are not available.","Обрані вами обов'язкові опції недоступні.",module,Magento_Bundle
+"The required options you selected are not available.","Вибрані Вами обов'язкові опції є недоступні.",module,Magento_Bundle
 "Please select all required options.","Будь ласка, оберіть усі обов'язкові опції.",module,Magento_Bundle
 N/A,Н/Д,module,Magento_Bundle
 Percent,Відсоток,module,Magento_Bundle
@@ -422,13 +422,13 @@ None,Нічого,module,Magento_Bundle
 Separately,Порізно,module,Magento_Bundle
 Together,Разом,module,Magento_Bundle
 "Option Title","Назва опції",module,Magento_Bundle
-"Store View Title","Заголовок виду крамниці",module,Magento_Bundle
+"Store View Title","Заголовок виду магазину",module,Magento_Bundle
 "Input Type","Тип вводу",module,Magento_Bundle
 Required,Обов'язкове,module,Magento_Bundle
 Position,Позиція,module,Magento_Bundle
 "There are no products in this option.","Немає товарів у цій опції.",module,Magento_Bundle
 "New Option","Нова опція",module,Magento_Bundle
-Default,Типове,module,Magento_Bundle
+Default,"За промовчанням",module,Magento_Bundle
 Name,Назва,module,Magento_Bundle
 "Price Type","Тип ціни",module,Magento_Bundle
 "Default Quantity","Типова кількість",module,Magento_Bundle
