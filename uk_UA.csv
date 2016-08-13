@@ -506,10 +506,10 @@ Subtotal,"Проміжний підсумок",module,Magento_Bundle
 Always,Завжди,module,Magento_Captcha
 "After number of attempts to login","Після декількох спроб увійти",module,Magento_Captcha
 "Provided form does not exist","Надана форма не існує",module,Magento_Captcha
-"Incorrect CAPTCHA","Неправильна CAPTCHA",module,Magento_Captcha
-"Incorrect CAPTCHA.","Неправильна CAPTCHA.",module,Magento_Captcha
-"Please enter the letters from the image","Будь ласка, введіть літери з зображення",module,Magento_Captcha
-"<strong>Attention</strong>: Captcha is case sensitive.","<strong>Увага</strong>: Captcha чутлива до регістру.",module,Magento_Captcha
+"Incorrect CAPTCHA","Некоректний CAPTCHA",module,Magento_Captcha
+"Incorrect CAPTCHA.","Некоректний CAPTCHA.",module,Magento_Captcha
+"Please enter the letters from the image","Будь ласка, введіть літери із зображення",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>Увага</strong>: Captcha чутливий до регістру.",module,Magento_Captcha
 "Reload captcha","Перезавантажити captcha",module,Magento_Captcha
 "Please type the letters below","Будь ласка, введіть літери нижче",module,Magento_Captcha
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Модель типу об\'єкта повинна бути екземпляром \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
@@ -914,7 +914,7 @@ Groups,Групи,module,Magento_Catalog
 "Product offline","Товар поза мережею",module,Magento_Catalog
 "Product online status","Мережевий стан товару",module,Magento_Catalog
 "Manage Stock","Керувати складом",module,Magento_Catalog
-Qty,Кіл-ть,module,Magento_Catalog
+Qty,К-сть,module,Magento_Catalog
 "Out-of-Stock Threshold","Поріг, коли немає в наявності",module,Magento_Catalog
 "Minimum Qty Allowed in Shopping Cart","Мінімальна кіл-ть, дозволена у кошику",module,Magento_Catalog
 "Maximum Qty Allowed in Shopping Cart","Максимальна кіл-ть, дозволена у кошику",module,Magento_Catalog
@@ -1849,14 +1849,14 @@ Font,Шрифт,module,Magento_Captcha
 Forms,Форми,module,Magento_Captcha
 "Displaying Mode","Режим відображення",module,Magento_Captcha
 "Number of Unsuccessful Attempts to Login","Кількість невдалих спроб входу",module,Magento_Captcha
-"If 0 is specified, CAPTCHA on the Login form will be always available.","Якщо вказано 0, CAPTCHA на формі входу буде завжди доступна.",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","Якщо вказано 0, CAPTCHA на формі входу буде завжди доступний.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","Час очікування CAPTCHA (хвилин)",module,Magento_Captcha
 "Number of Symbols","Кількість символів",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Будь ласка, вкажіть щонайбільше 8 символів. Дозволений діапазон (наприклад, 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Символи, що використовуються в CAPTCHA",module,Magento_Captcha
 "Case Sensitive","Чутливе до регістру",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Увімкнути CAPTCHA на Вітрині",module,Magento_Captcha
-"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Якщо вибрано, то CAPTCHA для форм ""Створити користувача"" та ""Забули пароль"" завжди увімкнена.",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Якщо вибрано, то CAPTCHA завжди увімкнений для форм ""Створити користувача"" та ""Забули пароль"".",module,Magento_Captcha
 Inventory,Інвентар,module,Magento_CatalogInventory
 "Stock Options","Опції складу",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Зменшувати наявну кількість, коли замовлення розміщено",module,Magento_CatalogInventory
