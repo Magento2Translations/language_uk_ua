@@ -704,6 +704,7 @@ Import,Імпорт,module,Magento_Catalog
 "Add Price","Додати ціну",module,Magento_Catalog
 "Default Values","Типові значення",module,Magento_Catalog
 "Related Products","Супутні товари",module,Magento_Catalog
+Up-sells,Допродажі,module,Magento_Catalog
 Cross-sells,"Перехресні продажі",module,Magento_Catalog
 "Size for %1","Розмір для %1",module,Magento_Catalog
 "Watermark File for %1","Файл водяного знаку для %1",module,Magento_Catalog
@@ -831,39 +832,66 @@ Percent,Процентів,module,Magento_Catalog
 "12h AM/PM","12 год. AM/PM",module,Magento_Catalog
 24h,"24 год.",module,Magento_Catalog
 Stretch,Розтягнути,module,Magento_Catalog
+Tile,Плитка,module,Magento_Catalog
+Top/Left,Зверху/Зліва,module,Magento_Catalog
+Top/Right,Зверху/Справа,module,Magento_Catalog
 Bottom/Left,Знизу/Ліворуч,module,Magento_Catalog
 Bottom/Right,Знизу/Праворуч,module,Magento_Catalog
 Center,Центр,module,Magento_Catalog
+"Unknown EAV indexer type ""%1"".","Невідомий тип EAV-індексатора ""%1"".",module,Magento_Catalog
 "Bad value was supplied.","Було надано хибне значення.",module,Magento_Catalog
+"Unsupported product type ""%1"".","Непідтримуваний тип товару ""%1"".",module,Magento_Catalog
 "Please correct the category.","Будь ласка, виправте категорію.",module,Magento_Catalog
 "Must be category model instance or its id.","Має бути екземпляр моделі категорії або її ідентифікатор.",module,Magento_Catalog
 "The attribute model is not defined.","Модель атрибуту не визначена.",module,Magento_Catalog
 Category,Категорія,module,Magento_Catalog
 "%1 was not found in algorithms","%1 не знайдено серед алгоритмів",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","Фільтр повинен бути об'єктом. Будь ласка, задайте коректний фільтр.",module,Magento_Catalog
 "Clear Price","Очистити ціну",module,Magento_Catalog
 "%1 and above","%1 та вище",module,Magento_Catalog
+"The filters must be an array.","Фільтри повинні бути масивом.",module,Magento_Catalog
+"The image does not exist.","Зображення не існує.",module,Magento_Catalog
 "Please correct the image file type.","Будь ласка, виправте тип файлу зображення.",module,Magento_Catalog
 "Group price must be a number greater than 0.","Групова ціна має бути числом, більшим за 0.",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","Перетворювач медіа-галереї має бути екземпляром EntryConverterInterface.",module,Magento_Catalog
+"There is no MediaGalleryEntryConverter for given type","Немає MediaGalleryEntryConverter для заданого типу",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","Будь ласка, введіть у це поле число 0 або більше.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","Значення атрибуту ""%1"" мусить бути задане",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Довжина артикуля має бути щонайбільше %1 символів.",module,Magento_Catalog
 "Please enter a valid number in this field.","Будь ласка, введіть у це поле дійсне число.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","Ми виявили дублюючий веб-сайт, ціновий ряд, користувацьку групу та кількість.",module,Magento_Catalog
 "Invalid option id %1","Невірний ідентифікатор опції %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Неможливо створити набір атрибутів, заснований на наборі атрибутів не товару.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Неможливо створити набір атрибутів, заснований на неіснуючому наборі атрибутів",module,Magento_Catalog
 "Provided Attribute set non product Attribute set.","Наданий набір атрибутів не є набором атрибутів товару.",module,Magento_Catalog
+"Use config","Використати конфігурацію",module,Magento_Catalog
 Enabled,Ввімкнено,module,Magento_Catalog
 Disabled,Вимкнено,module,Magento_Catalog
 "Attribute Set already exists.","Набір атрибутів вже існує.",module,Magento_Catalog
 "Requested product does not support images.","Запитаний товар не підтримує зображення.",module,Magento_Catalog
+"The image content is not valid.","Неприпустимий вміст зображення.",module,Magento_Catalog
 "Cannot save product.","Неможливо зберегти товар.",module,Magento_Catalog
 "Failed to save new media gallery entry.","Не вдалося зберегти новий запис у медіа-галереї.",module,Magento_Catalog
+"There is no image with provided ID.","Немає зображення з наданим ідентифікатором.",module,Magento_Catalog
+"The option type to get group instance is incorrect.","Ти опції для отримання групового екземпляру є некоректний.",module,Magento_Catalog
 "Select type options required values rows.","Виберіть рядки необхідних значень опцій типу.",module,Magento_Catalog
 "Could not remove custom option","Не вдалося прибрати користувацьку опцію",module,Magento_Catalog
 "Please specify date required option(s).","Будь ласка, вкажіть необхідну(і) опцію(ї) дати.",module,Magento_Catalog
 "Please specify time required option(s).","Будь ласка, вкажіть необхідну(і) опцію(ї).",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Тип екземпляра опції в групі опцій є некоректний.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","Тип екземпляра товару в групі опцій є некоректний.",module,Magento_Catalog
+"The configuration item option instance in options group is incorrect.","Екземпляр опції конфігураційної позиції в групі опцій є некоректний.",module,Magento_Catalog
+"The configuration item instance in options group is incorrect.","Екземпляр конфігураційної позиції в групі опцій є некоректний.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Екземпляр BuyRequest в групах опцій не є вірним.",module,Magento_Catalog
+"The file options format is not valid.","Неприпустимий формат опцій файлу.",module,Magento_Catalog
 px.,пікс.,module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","Файл '%1' для '%2' має неприпустиме розширення.",module,Magento_Catalog
+"The maximum allowed image size for '%1' is %2x%3 px.","Максимально дозволений розмір зображення для '%1' є %2x%3 px.",module,Magento_Catalog
+"The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Файл '%1', що Ви завантажили, є більшим за %2 мегабайт, що дозволено нашим сервером.",module,Magento_Catalog
+"The file '%1' is empty. Please choose another one","Файл '%1' є порожнім. Будь ласка, оберіть інший",module,Magento_Catalog
+"The file '%1' is invalid. Please choose another one","Файл '%1' є непридатним. Будь ласка, оберіть інший",module,Magento_Catalog
+"Validation failed. Required options were not filled or the file was not uploaded.","Перевірка невдала. Необхідні опції не були заповнені або файл не було завантажено.",module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","Файл, що Ви завантажили, є більшим за %1 мегабайт, що дозволено сервером",module,Magento_Catalog
 "Option required.","Необхідна опція.",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Деякі з вибраних опцій позиції наразі недоступні.",module,Magento_Catalog
 "Invalid data provided for tier_price","Невірні дані надано для tier_price",module,Magento_Catalog
