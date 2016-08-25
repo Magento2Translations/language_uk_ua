@@ -905,12 +905,22 @@ Edit,Редагувати,module,Magento_Checkout
 "Product Name","Назва Продукту",module,Magento_Checkout
 "Incl. Tax","З податками",module,Magento_Checkout
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Cms
+"Edit Block '%1'","Редагувати блок '%1'",module,Magento_Cms
 "Block Information","Блокувати Інформацію",module,Magento_Cms
 Status,Статус,module,Magento_Cms
 Enabled,Ввімкнено,module,Magento_Cms
 Disabled,Вимкнено,module,Magento_Cms
 Title,Назва,module,Magento_Cms
+"Edit Page '%1'","Редагувати сторінку '%1'",module,Magento_Cms
+"Page Layout","Розмітка сторінки",module,Magento_Cms
 "Custom Design","Користувацький Дизайн",module,Magento_Cms
+"Custom Design From","Користувальницький дизайн від",module,Magento_Cms
+"Custom Design To","Користувальницький дизайн до",module,Magento_Cms
+"Custom Layout Update XML","Користувальницьке оновлення розмітки XML",module,Magento_Cms
+"Relative to Web Site Base URL","Відносно базової URL-адреси веб-сайту",module,Magento_Cms
+"Page Status","Статус сторінки",module,Magento_Cms
+"Meta Data",Мета-дані,module,Magento_Cms
+Keywords,"Ключові слова",module,Magento_Cms
 Description,Описання,module,Magento_Cms
 Action,Дія,module,Magento_Cms
 Home,Головна,module,Magento_Cms
