@@ -840,6 +840,7 @@ Bottom/Right,Знизу/Праворуч,module,Magento_Catalog
 Center,Центр,module,Magento_Catalog
 "Unknown EAV indexer type ""%1"".","Невідомий тип EAV-індексатора ""%1"".",module,Magento_Catalog
 "Bad value was supplied.","Було надано хибне значення.",module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","Модуль Плоский каталог має ліміт на %2$d фільтрованих та/або сортованих атрибутів.Зараз їх є %1$d.Будь ласка, зменште число фільтрованих/сортованих атрибутів, для того щоб використовувати цей модуль",module,Magento_Catalog
 "Unsupported product type ""%1"".","Непідтримуваний тип товару ""%1"".",module,Magento_Catalog
 "Please correct the category.","Будь ласка, виправте категорію.",module,Magento_Catalog
 "Must be category model instance or its id.","Має бути екземпляр моделі категорії або її ідентифікатор.",module,Magento_Catalog
@@ -859,7 +860,7 @@ Category,Категорія,module,Magento_Catalog
 "The value of attribute ""%1"" must be set","Значення атрибуту ""%1"" мусить бути задане",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Довжина артикуля має бути щонайбільше %1 символів.",module,Magento_Catalog
 "Please enter a valid number in this field.","Будь ласка, введіть у це поле дійсне число.",module,Magento_Catalog
-"We found a duplicate website, tier price, customer group and quantity.","Ми виявили дублюючий веб-сайт, ціновий ряд, користувацьку групу та кількість.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","Ми виявили дублюючий веб-сайт, рівень ціни, користувацьку групу та кількість.",module,Magento_Catalog
 "Invalid option id %1","Невірний ідентифікатор опції %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Неможливо створити набір атрибутів, заснований на наборі атрибутів не товару.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Неможливо створити набір атрибутів, заснований на неіснуючому наборі атрибутів",module,Magento_Catalog
@@ -893,10 +894,15 @@ px.,пікс.,module,Magento_Catalog
 "Validation failed. Required options were not filled or the file was not uploaded.","Перевірка невдала. Необхідні опції не були заповнені або файл не було завантажено.",module,Magento_Catalog
 "The file you uploaded is larger than %1 Megabytes allowed by server","Файл, що Ви завантажили, є більшим за %1 мегабайт, що дозволено сервером",module,Magento_Catalog
 "Option required.","Необхідна опція.",module,Magento_Catalog
+"The file is empty. Please choose another one","Файл є порожнім. Будь ласка, оберіть інший",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Деякі з вибраних опцій позиції наразі недоступні.",module,Magento_Catalog
+"The text is too long.","Текст є задовгим.",module,Magento_Catalog
 "Invalid data provided for tier_price","Невірні дані надано для tier_price",module,Magento_Catalog
 "Please provide valid data","Будь ласка, надайте дійсні дані",module,Magento_Catalog
+"Values of following attributes are invalid: %1","Значення наступних атрибутів є неприпустимі: %1",module,Magento_Catalog
 "Could not save group price","Не вдалося зберегти групову ціну",module,Magento_Catalog
+"The file upload failed.","Завантаження файлу невдале.",module,Magento_Catalog
+"The product has required options.","Товар має обов'язкові опції.",module,Magento_Catalog
 "Something went wrong while processing the request.","Щось пішло не так під час обробки запиту.",module,Magento_Catalog
 "Not Visible Individually","Не відображається індивідуально",module,Magento_Catalog
 Search,Пошук,module,Magento_Catalog
@@ -906,11 +912,14 @@ Search,Пошук,module,Magento_Catalog
 "Group with id ""%1"" does not exist.","Групи з ідентифікатором ""%1"" не існує.",module,Magento_Catalog
 "Attribute group that contains system attributes can not be deleted","Група атрибутів, що містить системні атрибути не може бути видалена",module,Magento_Catalog
 "Collection provider is not registered","Постачальник колекції не зареєстрований",module,Magento_Catalog
+"Unknown link type: %1","Невідомий тип посилання: %1",module,Magento_Catalog
 "Provided link type ""%1"" does not exist","Наданого типу зв'язку ""%1"" не існує",module,Magento_Catalog
 "Invalid data provided for linked products","Для пов'язаних товарів надані невірні дані",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Товар з артикулем %1 не пов'язаний з товаром із артикулем %2",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Товар з артикулем ""%1"" не існує",module,Magento_Catalog
 "Invalid product data: %1","Невірні дані товару: %1",module,Magento_Catalog
+"Unable to remove product %1","Неможливо видалити товар %1",module,Magento_Catalog
+"There are not websites for assign to product","Немає веб-сайтів для призначення до товару",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Не вдалося назначити товар ""%1"" до веб-сайтів ""%2""",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Не вдалося зберегти продукт ""%1"" з веб-сайтами %2",module,Magento_Catalog
 "Do not change the scope. %1","Не змінюйте область. %1",module,Magento_Catalog
@@ -920,6 +929,7 @@ Dropdown,Випадаючий,module,Magento_Catalog
 "As low as","Така ж мала, як і",module,Magento_Catalog
 message,повідомлення,module,Magento_Catalog
 Select...,Вибрати...,module,Magento_Catalog
+"This operation can take a long time","Ця операція може забрати багато часу",module,Magento_Catalog
 "Collapse All","Згорнути все",module,Magento_Catalog
 "Expand All","Розгорнути все",module,Magento_Catalog
 "Use Default Value","Використовувати значення за замовчуванням",module,Magento_Catalog
@@ -929,10 +939,13 @@ Select...,Вибрати...,module,Magento_Catalog
 "Sort Option","Опція сортування",module,Magento_Catalog
 Groups,Групи,module,Magento_Catalog
 "Double click on a group to rename it.","Подвійно клацніть по групі щоб перейменувати її.",module,Magento_Catalog
+"Unassigned Attributes","Непризначені атрибути",module,Magento_Catalog
 "A name is required.","Необхідно вказати назву.",module,Magento_Catalog
+"This group contains system attributes. Please move system attributes to another group and try again.","Ця група містить системні атрибути. Будь ласка, перемістіть системні атрибути в іншу групу та спробуйте знову.",module,Magento_Catalog
 "Please enter a new group name.","Будь ласка, введіть назву нової групи.",module,Magento_Catalog
 "An attribute group named ""/name/"" already exists"".","Група атрибутів під назвою ""/name/"" вже існує"".",module,Magento_Catalog
 "Custom Options","Користувацькі опції",module,Magento_Catalog
+"This is a required option.","Це є обов'язкова опція.",module,Magento_Catalog
 "Compatible file extensions to upload","Сумісні розширення файлів для завантаження",module,Magento_Catalog
 "Maximum image width","Максимальна ширина зображення",module,Magento_Catalog
 "Maximum image height","Максимальна висота зображення",module,Magento_Catalog
@@ -956,6 +969,7 @@ Backorders,"Невиконані замовлення",module,Magento_Catalog
 "Out of Stock","Немає у Наявності",module,Magento_Catalog
 "Add Product To Websites","Додати товар на веб-сайти",module,Magento_Catalog
 "Remove Product From Websites","Видалити товар з веб-сайтів",module,Magento_Catalog
+"To hide an item in catalog or search results, set the status to ""Disabled"".","Щоб приховати позицію в каталозі або в результатах пошуку, встановіть статус на ""Відключений"".",module,Magento_Catalog
 "Delete Custom Option","Видалити користувацьку опцію",module,Magento_Catalog
 "Sort Custom Options","Користувацькі опції сортування",module,Magento_Catalog
 "Option Title","Заголовок опції",module,Magento_Catalog
@@ -984,10 +998,13 @@ Role,Роль,module,Magento_Catalog
 "Basic Settings","Основні налаштування",module,Magento_Catalog
 "Advanced Settings","Розширені налаштування",module,Magento_Catalog
 "Changes have been made to this section that have not been saved.","Деякі зроблені у цьому розділі зміни ще не були збережені.",module,Magento_Catalog
+"This tab contains invalid data. Please resolve this before saving.","Ця вкладка містить неприпустимі дані. Будь ласка, вирішіть це перед збереженням.",module,Magento_Catalog
 Actions,Дії,module,Magento_Catalog
 "Mass Actions","Масові дії",module,Magento_Catalog
 "Select All","Вибрати все",module,Magento_Catalog
+"Unselect All","Зняти виділення з усього",module,Magento_Catalog
 "Select Visible","Вибрати видиме",module,Magento_Catalog
+"Unselect Visible","Зняти виділення з видимих",module,Magento_Catalog
 "Special Price","Спеціальна ціна",module,Magento_Catalog
 "Regular Price","Звичайна ціна",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Придбати %1 по %2 за одиницю та <strong class=""benefit"">заощадити<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
@@ -1001,6 +1018,7 @@ Actions,Дії,module,Magento_Catalog
 "In stock","В наявності",module,Magento_Catalog
 "Out of stock","Немає у наявності",module,Magento_Catalog
 "Add to Wish List","Додати до списку бажань",module,Magento_Catalog
+"You have no items to compare.","У Вас немає позицій для порівняння.",module,Magento_Catalog
 "Remove This Item","Видалити цю позицію",module,Magento_Catalog
 Compare,Порівняти,module,Magento_Catalog
 "Clear All","Очистити все",module,Magento_Catalog
@@ -1008,6 +1026,7 @@ Prev,Поп-ній,module,Magento_Catalog
 Next,Наступний,module,Magento_Catalog
 "Add to Compare","Додати до порівняння",module,Magento_Catalog
 "Learn More","Дізнатись більше",module,Magento_Catalog
+"We found other products you might like!","Ми знайшли інші товари, які можуть вам сподобатися!",module,Magento_Catalog
 "More Choices:","Більше варіантів:",module,Magento_Catalog
 "Check items to add to the cart or","Позначте елементи, які додати до кошика, або",module,Magento_Catalog
 "select all","вибрати все",module,Magento_Catalog
@@ -1019,6 +1038,7 @@ Show,Показати,module,Magento_Catalog
 "Sort By","Сортувати за",module,Magento_Catalog
 "Set Ascending Direction","Сортувати у порядку зменшення",module,Magento_Catalog
 "Set Descending Direction","Сортувати у порядку збільшення",module,Magento_Catalog
+"View as","Відобразити як",module,Magento_Catalog
 "More Information",Докладніше,module,Magento_Catalog
 Loading...,Завантаження...,module,Magento_Catalog
 "* Required Fields","* Обов\'язкові поля",module,Magento_Catalog
@@ -1654,6 +1674,7 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Add Products to New Option","Додати товари до нової опції",module,Magento_Bundle
 "Add Products to Option ""%1""","Додати товари до опції ""%1""",module,Magento_Bundle
 "Add Selected Products","Додати вибрані товари",module,Magento_Bundle
+"Warning message","Попереджувальне повідомлення",module,Magento_Catalog
 Cancel,Скасувати,module,Magento_Catalog
 Submit,Підтвердити,module,Magento_Catalog
 "Configure Product","Налаштувати товар",module,Magento_Catalog
@@ -1666,6 +1687,7 @@ OK,Гаразд,module,Magento_Catalog
 "Choose existing category.","Виберіть наявну категорію.",module,Magento_Catalog
 "Create Category","Створити категорію",module,Magento_Catalog
 "Image Detail","Деталі зображення",module,Magento_Catalog
+"unselect all","Зняти виділення з усього",module,Magento_Catalog
 "Incl. Tax","З податками",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Ви справді бажаєте це зробити?",module,Magento_Customer
 "Please choose a payment method.","Будь ласка, виберіть спосіб оплати.",module,Magento_Multishipping
@@ -1913,11 +1935,15 @@ Title,Назва,module,Magento_CatalogWidget
 "Number of Products per Page","Кількість товарів на сторінці",module,Magento_CatalogWidget
 Template,Шаблон,module,Magento_CatalogWidget
 Small,Малий,module,Magento_Catalog
+Thumbnail,Мініатюра,module,Magento_Catalog
 "Product Fields Auto-Generation","Автогенерація товарних полів",module,Magento_Catalog
 "Mask for SKU","Маска для артиклю",module,Magento_Catalog
+"Use {{name}} as Product Name placeholder","Використовувати {{name}} як покажчик місця заповнення назви товару",module,Magento_Catalog
 "Mask for Meta Title","Маска для заголовку Meta",module,Magento_Catalog
 "Mask for Meta Keywords","Маска для ключових слів Meta",module,Magento_Catalog
+"Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","Використовувати {{name}} для назви товару або {{sku}} для артикула товару в якості покажчика місця заповнення",module,Magento_Catalog
 "Mask for Meta Description","Маска для опису Meta",module,Magento_Catalog
+"Use {{name}} and {{description}} as Product Name and Product Description placeholders","Використовувати {{name}} і {{description}} для назви та опису товару в якості покажчика місця заповнення",module,Magento_Catalog
 Storefront,Вітрина,module,Magento_Catalog
 "List Mode","Режим списку",module,Magento_Catalog
 "Products per Page on Grid Allowed Values","Допустимі значення Товарів на сторінку по Сітці",module,Magento_Catalog
@@ -1926,14 +1952,20 @@ Comma-separated.,"Через кому.",module,Magento_Catalog
 "Must be in the allowed values list","Має бути в списку дозволених значень",module,Magento_Catalog
 "Products per Page on List Allowed Values","Допустимі значення Товарів на сторінку у Списку",module,Magento_Catalog
 "Products per Page on List Default Value","Типове значення Товарів на сторінку у Списку",module,Magento_Catalog
+"Use Flat Catalog Category","Використовувати категорію плоского каталогу",module,Magento_Catalog
+"Use Flat Catalog Product","Використовувати товар плоского каталогу",module,Magento_Catalog
 "Product Listing Sort by","Сортування списку товарів",module,Magento_Catalog
 "Allow All Products per Page","Дозволити всі товари на сторінці",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Чи відображати опцію ""Всі"" у випадаючому списку ""Показати X на сторінку""",module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories","Дозволити динамічні URL для медіа у товарах та категоріях",module,Magento_Catalog
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Напр. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Розбір динамічних директив впливає на продуктивність каталогу.",module,Magento_Catalog
 "Product Image Placeholders","Заповнювач для зображення товару",module,Magento_Catalog
 "Search Engine Optimization","Пошукова оптимізація (SEO)",module,Magento_Catalog
 "Page Title Separator","Роздільник заголовку сторінки",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","Використовувати мета-тег канонічного посилання для категорій",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","Використовувати мета-тег канонічного посилання для товарів",module,Magento_Catalog
 "Catalog Price Scope","Діапазон цін каталогу",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Цей параметр визначає межі базової грошової одиниці (""Налагодження валюти"" > ""Опції валюти"" > ""Базова грошова одиниця"").",module,Magento_Catalog
 "Category Top Navigation","Верхня навігація категорії",module,Magento_Catalog
 "Maximal Depth","Максимальна глибина",module,Magento_Catalog
 "Date & Time Custom Options","Користувацькі опції дати та часу",module,Magento_Catalog
