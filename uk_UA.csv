@@ -520,14 +520,15 @@ Search,Пошук,module,Magento_CatalogSearch
 Root,Корінь,module,Magento_Catalog
 "Save Category","Зберегти категорію",module,Magento_Catalog
 "Delete Category","Видалити категорію",module,Magento_Catalog
-Reset,Очистити,module,Magento_Catalog
+Reset,Скинути,module,Magento_Catalog
 "New Subcategory","Нова підкатегорія",module,Magento_Catalog
 "New Root Category","Нова коренева категорія",module,Magento_Catalog
 "Set Root Category for Store","Встановити кореневу категорію для крамниці",module,Magento_Catalog
-"Use Config Settings","Використовувати значення за замовчуванням",module,Magento_Catalog
+"Use Config Settings","Використовувати налаштування конфігурації",module,Magento_Catalog
 "Use All Available Attributes","Використовувати всі доступні атрибути",module,Magento_Catalog
 "Custom Design","Користувацький Дизайн",module,Magento_Catalog
-Name,Ім'я,module,Magento_Catalog
+ID,Ідентифікатор,module,Magento_Catalog
+Name,Назва,module,Magento_Catalog
 SKU,Артикул,module,Magento_Catalog
 Price,Ціна,module,Magento_Catalog
 Position,Позиція,module,Magento_Catalog
@@ -1675,13 +1676,18 @@ Comma-separated.,"Через кому.",module,Magento_Catalog
 "Category Top Navigation","Верхня навігація категорії",module,Magento_Catalog
 "Maximal Depth","Максимальна глибина",module,Magento_Catalog
 "Date & Time Custom Options","Користувацькі опції дати та часу",module,Magento_Catalog
+"Use JavaScript Calendar","Використовувати календар JavaScript",module,Magento_Catalog
 "Date Fields Order","Порядок полів дати",module,Magento_Catalog
+"Time Format","Формат часу",module,Magento_Catalog
+"Year Range","Діапазон року",module,Magento_Catalog
 "Please use a four-digit year format.","Будь ласка, використовуйте чотирьох-числовий формат дати.",module,Magento_Catalog
 "Product Image Watermarks","Водяні знаки для зображення товару",module,Magento_Catalog
 "Watermark Default Size","Типовий розмір водяного знаку",module,Magento_Catalog
 "Watermark Opacity, Percent","Непрозорість водяного знаку, відсотків",module,Magento_Catalog
 Watermark,"Водяний знак",module,Magento_Catalog
 "Watermark Position","Положення водяного знаку",module,Magento_Catalog
+"Use Static URLs for Media Content in WYSIWYG for Catalog","Використовувати статичні URL-адреси для медіа-контенту в WYSIWYG для каталогу",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Це стосується лише товарів і категорій каталогу. Медіа-вміст буде вставлений у редактор як статична URL. Медіа-контент не оновлюватиметься, якщо зміниться базова URL-адреса системної конфігурації.",module,Magento_Catalog
 "Product Flat Data","Пласкі дані товарів",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","Реорганізувати EAV структуру товарів у пласку структуру",module,Magento_Catalog
 "Category Flat Data","Пласкі дані категорії",module,Magento_Catalog
