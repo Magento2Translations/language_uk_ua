@@ -510,13 +510,24 @@ Product,Продукт,module,Magento_CatalogRule
 Catalog,Каталог,module,Magento_CatalogRule
 "Wrong rule specified.","Вказані правила не вірні",module,Magento_CatalogRule
 Home,Головна,module,Magento_CatalogSearch
+"Go to Home Page","Перейти на домашню сторінку",module,Magento_CatalogSearch
 All,Всі,module,Magento_CatalogSearch
 Yes,Так,module,Magento_CatalogSearch
 No,Ні,module,Magento_CatalogSearch
+Results,Результати,module,Magento_CatalogSearch
 Grid,Таблиця,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
+Relevance,Релевантність,module,Magento_CatalogSearch
+"Search results for: '%1'","Результати пошуку: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Мінімальна довжина запиту пошуку-%1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Будь ласка, вкажіть принаймні один пошуковий термін.",module,Magento_CatalogSearch
+"%1 and greater","%1 і більше",module,Magento_CatalogSearch
+"up to %1","до %1",module,Magento_CatalogSearch
+"Search Settings","Параметри пошуку",module,Magento_CatalogSearch
 Search,Пошук,module,Magento_CatalogSearch
+"Advanced Search","Розширений пошук",module,Magento_CatalogSearch
 "Modify your search","Змінити ваш пошук",module,Magento_CatalogSearch
+"Don't see what you're looking for?","Не побачили, що шукали?",module,Magento_CatalogSearch
 Root,Корінь,module,Magento_Catalog
 "Save Category","Зберегти категорію",module,Magento_Catalog
 "Delete Category","Видалити категорію",module,Magento_Catalog
@@ -1643,6 +1654,11 @@ Backorders,"Відкладені замовлення",module,Magento_CatalogInv
 "Qty Increments","Збільшення кіл-ті",module,Magento_CatalogInventory
 Rule,Правило,module,Magento_CatalogRule
 "Web Site",Веб-сайт,module,Magento_CatalogRule
+"Popular Search Terms","Популярні пошукові терміни",module,Magento_CatalogSearch
+"Catalog Search","Пошук в каталозі",module,Magento_CatalogSearch
+"Minimal Query Length","Мінімальна довжина запиту",module,Magento_CatalogSearch
+"Maximum Query Length","Максимальна довжина запиту",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Перебудувати індекс повнотекстового пошуку каталогу товарів",module,Magento_CatalogSearch
 "Product Fields Auto-Generation","Автогенерація товарних полів",module,Magento_Catalog
 "Mask for SKU","Маска для артиклю",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","Використовувати {{name}} як покажчик місця заповнення назви товару",module,Magento_Catalog
