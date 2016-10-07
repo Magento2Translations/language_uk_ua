@@ -620,15 +620,29 @@ Catalog,Каталог,module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Не вдалося перебудувати індекс для порожнього масиву продуктів",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Ми не можемо перебудувати індекс для невизначеного продукту.",module,Magento_CatalogRule
 Home,Головна,module,Magento_CatalogSearch
+"Go to Home Page","Перейти на домашню сторінку",module,Magento_CatalogSearch
 All,Всі,module,Magento_CatalogSearch
 Yes,Так,module,Magento_CatalogSearch
 No,Ні,module,Magento_CatalogSearch
+Results,Результати,module,Magento_CatalogSearch
 Grid,Таблиця,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
+Relevance,Релевантність,module,Magento_CatalogSearch
+"Search results for: '%1'","Результати пошуку: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Мінімальна довжина запиту пошуку-%1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Будь ласка, вкажіть принаймні один пошуковий термін.",module,Magento_CatalogSearch
+"%1 and greater","%1 і більше",module,Magento_CatalogSearch
+"up to %1","до %1",module,Magento_CatalogSearch
 Category,Категорія,module,Magento_CatalogSearch
+"%1 and above","%1 та вище",module,Magento_CatalogSearch
+"Sorry, something went wrong. You can find out more in the error log.","На жаль, щось пішло не так. Ви можете дізнатися більше в журналі помилок.",module,Magento_CatalogSearch
 Product,Продукт,module,Magento_CatalogSearch
+"Search Settings","Параметри пошуку",module,Magento_CatalogSearch
 Search,Пошук,module,Magento_CatalogSearch
+"Advanced Search","Розширений пошук",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Ми не можемо знайти жодних елементів, що відповідають умовам пошуку.",module,Magento_CatalogSearch
+"Modify your search.","Змінити ваш пошук.",module,Magento_CatalogSearch
+"Don't see what you're looking for?","Не побачили, що шукали?",module,Magento_CatalogSearch
 SKU,Артикул,module,Magento_CatalogWidget
 "Add to Cart","Додати в кошик",module,Magento_CatalogWidget
 "In stock",Залишок,module,Magento_CatalogWidget
@@ -2171,6 +2185,11 @@ Back,Назад,module,Magento_CatalogRule
 Actions,Дії,module,Magento_CatalogRule
 Yes,Так,module,Magento_CatalogRule
 No,Ні,module,Magento_CatalogRule
+"Popular Search Terms","Популярні пошукові терміни",module,Magento_CatalogSearch
+"Catalog Search","Пошук в каталозі",module,Magento_CatalogSearch
+"Minimal Query Length","Мінімальна довжина запиту",module,Magento_CatalogSearch
+"Maximum Query Length","Максимальна довжина запиту",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Перебудувати індекс повнотекстового пошуку каталогу товарів",module,Magento_CatalogSearch
 Title,Назва,module,Magento_CatalogWidget
 "Number of Products per Page","Кількість товарів на сторінці",module,Magento_CatalogWidget
 Template,Шаблон,module,Magento_CatalogWidget
