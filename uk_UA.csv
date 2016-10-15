@@ -1099,6 +1099,7 @@ Resume,Відновити,module,Magento_Newsletter
 Template,Шаблон,module,Magento_Newsletter
 Updated,Оновлено,module,Magento_Newsletter
 Action,Дія,module,Magento_Newsletter
+Country,Країна,module,Magento_OfflineShipping
 None,Жоден,module,Magento_OfflineShipping
 No,Ні,module,Magento_OfflineShipping
 Month,Місяць,module,Magento_Payment
