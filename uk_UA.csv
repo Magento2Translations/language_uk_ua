@@ -1436,6 +1436,7 @@ Remove,Вилучити,module,Magento_LayeredNavigation
 "Clear All","Очистити всі",module,Magento_LayeredNavigation
 "Shopping Options","Варіанти товарів",module,Magento_LayeredNavigation
 Partners,Партнери,module,Magento_Marketplace
+Synchronize,Синхронізувати,module,Magento_MediaStorage
 "What's this?","Що це?",module,Magento_Msrp
 Price,Ціна,module,Magento_Msrp
 "Add to Cart","Додати в кошик",module,Magento_Msrp
@@ -1466,6 +1467,7 @@ Resume,Відновити,module,Magento_Newsletter
 Template,Шаблон,module,Magento_Newsletter
 Updated,Оновлено,module,Magento_Newsletter
 Action,Дія,module,Magento_Newsletter
+Country,Країна,module,Magento_OfflineShipping
 None,Жоден,module,Magento_OfflineShipping
 No,Ні,module,Magento_OfflineShipping
 Month,Місяць,module,Magento_Payment
@@ -2086,6 +2088,7 @@ Web,Веб,module,Magento_Backend
 Description,Описання,module,Magento_Backend
 Tags,Мітки,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">Помилка 404</h1><p>Сторінку не знайдено.</p>",module,Magento_Backend
+"Default Theme","Типова тема",module,Magento_Backend
 Pagination,Пагінація,module,Magento_Backend
 "Pagination Frame","Кадрування Пагінації",module,Magento_Backend
 "How many links to display at once.","Кількість посилань для одночасного відображення.",module,Magento_Backend
