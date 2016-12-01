@@ -643,6 +643,8 @@ Search,Пошук,module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Ми не можемо знайти жодних елементів, що відповідають умовам пошуку.",module,Magento_CatalogSearch
 "Modify your search.","Змінити ваш пошук.",module,Magento_CatalogSearch
 "Don't see what you're looking for?","Не побачили, що шукали?",module,Magento_CatalogSearch
+"Create Permanent Redirect for old URL","Створити постійну переадресацію для старих URL",module,Magento_CatalogUrlRewrite
+"Conditions Combination","Умови комбінації",module,Magento_CatalogWidget
 SKU,Артикул,module,Magento_CatalogWidget
 "Add to Cart","Додати в кошик",module,Magento_CatalogWidget
 "In stock",Залишок,module,Magento_CatalogWidget
@@ -1214,25 +1216,67 @@ Show,Показати,module,Magento_Catalog
 Loading...,Завантаження...,module,Magento_Catalog
 "* Required Fields","* Обов\'язкові поля",module,Magento_Catalog
 Availability,Наявність,module,Magento_Catalog
+"Terms and Conditions","Правила та умови використання",module,Magento_CheckoutAgreements
 Status,Статус,module,Magento_CheckoutAgreements
 Enabled,Ввімкнено,module,Magento_CheckoutAgreements
 Disabled,Вимкнено,module,Magento_CheckoutAgreements
 Sales,Продажі,module,Magento_CheckoutAgreements
 "Shopping Cart",Кошик,module,Magento_Checkout
 City,Місто,module,Magento_Checkout
+Country,Країна,module,Magento_Checkout
+State/Province,Область,module,Magento_Checkout
+"Zip/Postal Code","Поштовий Індекс",module,Magento_Checkout
+"My Cart (1 item)","Кошик (1 шт)",module,Magento_Checkout
+"My Cart (%1 items)","Кошик (%1 пунктів)",module,Magento_Checkout
+"My Cart",Кошик,module,Magento_Checkout
+"For delivery questions.","Питання для доставки.",module,Magento_Checkout
+"Customer is already registered","Клієнт з такою поштою вже зареєстрований",module,Magento_Checkout
+"Your session has expired","Ваш сеанс закінчився",module,Magento_Checkout
+"A letter with further instructions will be sent to your email.","Лист з подальшими інструкціями буде надіслано Вам на електронну пошту.",module,Magento_Checkout
 "You added %1 to your shopping cart.","Ви додали %1 у Ваш кошик.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Наразі ми не можемо додати цю позицію до вашого кошику.",module,Magento_Checkout
 "Out of stock","Немає у наявності",module,Magento_Checkout
+"We cannot configure the product.","Ми не можемо налаштувати продукт.",module,Magento_Checkout
+"You used coupon code ""%1"".","Ви використовували код купона ""%1"".",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Код купона ""%1"" не є дійсним.",module,Magento_Checkout
+"You canceled the coupon code.","Ви скасували код купона.",module,Magento_Checkout
+"We cannot apply the coupon code.","Ми не можемо застосовувати код купона.",module,Magento_Checkout
 "We can't remove the item.","Ми не можемо видалити позицію.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 був оновлений в кошику.",module,Magento_Checkout
 "We can't update the item right now.","Наразі ми не можемо оновити позицію.",module,Magento_Checkout
 "We can't update the shopping cart.","Ми не можемо оновити кошик.",module,Magento_Checkout
+"One-page checkout is turned off.","Одна сторінка оформлення замовлення вимкнута.",module,Magento_Checkout
+"Guest checkout is disabled.","Відгуки в оформлені замовлення вимкнуті.",module,Magento_Checkout
+Checkout,"Оформити замовлення",module,Magento_Checkout
 "Page not found.","Сторінка не знайдена.",module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Буль-ласка, погодьтеся з усіма правилами та умовами перед тим як розмістити замовлення.",module,Magento_Checkout
+"Something went wrong while processing your order. Please try again later.","Щось пішло не так під час обробки вашого замовлення. Будь ласка, спробуйте ще раз пізніше.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 не розширює \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.","Ми не можемо знайти товар.",module,Magento_Checkout
 "The product does not exist.","Продукт не існує.",module,Magento_Checkout
+"We don't have some of the products you want.","На жаль цих продуктів немає в наявності.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Ми не маємо в наявності таку кількість товарів.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","Кількість було повторно обчислено від %1 до %2",module,Magento_Checkout
+"Display number of items in cart","Відобразити кількість товарів в кошику",module,Magento_Checkout
+"Display item quantities","Відображати кількість елементу",module,Magento_Checkout
+"Shipping address is not set","Не вказано адресу доставки",module,Magento_Checkout
+"Unable to save shipping information. Please check input data.","Не вдалося зберегти інформацію про доставку. Будь ласка, перевірте введені дані.",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","Не можно обчислити вартість порожнього кошику",module,Magento_Checkout
+"Invalid data","Некоректні дані",module,Magento_Checkout
+"The customer address is not valid.","Некоректна адреса клієнта.",module,Magento_Checkout
+"Invalid shipping method","Некоректний метод доставки",module,Magento_Checkout
+"There are more than one shipping addresses.","Є більш одного місця доставки.",module,Magento_Checkout
+"Sorry, guest checkout is not available.","Вибачте, але відгуки в оформлені замовлення недоступні.",module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Ви повинні підтвердити свій обліковий запис. Вам на пошту відправлений лист з підтвердженням, перейдіть, будь ласка, за посиланням для підтвердження або, <a href=""%1""> натисніть тут</a> для повторної відправки листа.",module,Magento_Checkout
+"Error message!","Повідомлення про помилку!",module,Magento_Checkout
 Error!,Помилка!,module,Magento_Checkout
+"DB exception","Виняток бази даних",module,Magento_Checkout
+"Wrong minimum amount.","Некоректна мінімальна сума.",module,Magento_Checkout
 Message,Повідомлення,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Роздрукувати квитанцію</a>",module,Magento_Checkout
+"Apply Discount Code","Застосувати код знижки",module,Magento_Checkout
+"Enter discount code","Введіть код знижки",module,Magento_Checkout
+"Apply Discount","Застосувати знижку",module,Magento_Checkout
 Item,Елемент,module,Magento_Checkout
 Price,Ціна,module,Magento_Checkout
 Qty,Кіл-ть,module,Magento_Checkout
@@ -1853,10 +1897,28 @@ Total:,Всього:,module,Magento_Checkout
 Cancel,Скасувати,module,Magento_Checkout
 Login,Увійти,module,Magento_Checkout
 Close,Закрити,module,Magento_Checkout
-item,елемент,module,Magento_Checkout
+item,товар,module,Magento_Checkout
 items,елементи,module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
+"No Payment Methods","Не вибрано спосіб оплати",module,Magento_Checkout
+"Payment Information","Відомості про оплату",module,Magento_Checkout
+"No Payment method available.","Немає доступних способів оплати.",module,Magento_Checkout
+"You can track your order status by creating an account.","Ви можете відстежувати стан вашого замовлення, для цього необхідно створити обліковий запис.",module,Magento_Checkout
+"Place Order","Розмістити замовлення",module,Magento_Checkout
+"Edit Your Cart","Редагувати кошик",module,Magento_Checkout
+"Ship To:","Адреса доставки:",module,Magento_Checkout
+edit,редагувати,module,Magento_Checkout
+"Shipping Address","Адреса доставки",module,Magento_Checkout
+"New Address","Нова адреса",module,Magento_Checkout
+"Shipping Methods","Спосіб доставки",module,Magento_Checkout
+"Select Method","Виберіть спосіб",module,Magento_Checkout
+"Method Title","Назва методу",module,Magento_Checkout
+"Carrier Title","Назва перевізника",module,Magento_Checkout
 Next,Наступний,module,Magento_Checkout
+"Order Summary",Всього,module,Magento_Checkout
+"Item in Cart","Товар в кошику",module,Magento_Checkout
+"Items in Cart","Товари в кошику",module,Magento_Checkout
+"View Details",Детальніше,module,Magento_Checkout
 "Contact Form","Контактна форма",module,Magento_Contact
 "Name: %name","Ім'я: %name",module,Magento_Contact
 "Email: %email","Електронна пошта: %email",module,Magento_Contact
@@ -1903,7 +1965,11 @@ OK,Гаразд,module,Magento_Catalog
 Adding...,Додаємо...,module,Magento_Catalog
 Added,Додано,module,Magento_Catalog
 "unselect all","Зняти виділення з усього",module,Magento_Catalog
+"Provided Zip/Postal Code seems to be invalid.","Поштовий індекс недійсний.",module,Magento_Checkout
+"If you believe it is the right one you can ignore this notice.","Якщо ви вважаєте, що це є правильним ви можете проігнорувати це повідомлення.",module,Magento_Checkout
+"Review & Payments","Огляд & платежі",module,Magento_Checkout
 Shipping,Доставка,module,Magento_Checkout
+"Save Address","Зберегти адресу",module,Magento_Checkout
 "Incl. Tax","З податками",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Ви справді бажаєте це зробити?",module,Magento_Customer
 "Please choose a payment method.","Будь ласка, виберіть спосіб оплати.",module,Magento_Multishipping
@@ -2333,6 +2399,13 @@ Disable,Вимкнути,module,Magento_Catalog
 none,жодного,module,Magento_Catalog
 Overview,Огляд,module,Magento_Catalog
 Details,Докладно,module,Magento_Catalog
+"Checkout Options","Параметри оформлення замовлення",module,Magento_Checkout
+"Allow Guest Checkout","Дозволяє робити замовленням гостям",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","Після додавання продукту перенаправлення в кошик",module,Magento_Checkout
+"My Cart Link","Посилання на кошик",module,Magento_Checkout
+"Display Cart Summary","Показати короткий огляд кошика",module,Magento_Checkout
+"Shopping Cart Sidebar","Кошик на боковій панелі",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 From,Від,module,Magento_Cms
 To,До,module,Magento_Cms
