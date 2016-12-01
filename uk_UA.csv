@@ -909,14 +909,35 @@ Show,Показати,module,Magento_Catalog
 Loading...,Завантаження...,module,Magento_Catalog
 "* Required Fields","* Обов\'язкові поля",module,Magento_Catalog
 Availability,Наявність,module,Magento_Catalog
+"Terms and Conditions","Правила та умови використання",module,Magento_CheckoutAgreements
 Status,Статус,module,Magento_CheckoutAgreements
 Enabled,Ввімкнено,module,Magento_CheckoutAgreements
 Disabled,Вимкнено,module,Magento_CheckoutAgreements
 Sales,Продажі,module,Magento_CheckoutAgreements
 "Shopping Cart",Кошик,module,Magento_Checkout
 City,Місто,module,Magento_Checkout
+Country,Країна,module,Magento_Checkout
+State/Province,Область,module,Magento_Checkout
+"Zip/Postal Code","Поштовий Індекс",module,Magento_Checkout
+"My Cart (1 item)","Кошик (1 шт)",module,Magento_Checkout
+"My Cart (%1 items)","Кошик (%1 пунктів)",module,Magento_Checkout
+"My Cart",Кошик,module,Magento_Checkout
 "You added %1 to your shopping cart.","Ви додали %1 у Ваш кошик.",module,Magento_Checkout
+"We cannot configure the product.","Ми не можемо налаштувати продукт.",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Код купона ""%1"" не є дійсним.",module,Magento_Checkout
+"We cannot apply the coupon code.","Ми не можемо застосовувати код купона.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 був оновлений в кошику.",module,Magento_Checkout
+Checkout,"Оформити замовлення",module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Буль-ласка, погодьтеся з усіма правилами та умовами перед тим як розмістити замовлення.",module,Magento_Checkout
 "The product does not exist.","Продукт не існує.",module,Magento_Checkout
+"We don't have some of the products you want.","На жаль цих продуктів немає в наявності.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Ми не маємо в наявності таку кількість товарів.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","Кількість було повторно обчислено від %1 до %2",module,Magento_Checkout
+"Display number of items in cart","Відобразити кількість товарів в кошику",module,Magento_Checkout
+"Display item quantities","Відображати кількість елементу",module,Magento_Checkout
+"Invalid data","Некоректні дані",module,Magento_Checkout
+"The customer address is not valid.","Некоректна адреса клієнта.",module,Magento_Checkout
+"Invalid shipping method","Некоректний метод доставки",module,Magento_Checkout
 Item,Елемент,module,Magento_Checkout
 Price,Ціна,module,Magento_Checkout
 Qty,Кіл-ть,module,Magento_Checkout
@@ -1746,7 +1767,16 @@ Set,Встановити,module,Magento_Catalog
 none,жодного,module,Magento_Catalog
 Overview,Огляд,module,Magento_Catalog
 Details,Докладно,module,Magento_Catalog
+"Checkout Options","Параметри оформлення замовлення",module,Magento_Checkout
+"Allow Guest Checkout","Дозволяє робити замовленням гостям",module,Magento_Checkout
 "Require Customer To Be Logged In To Checkout","Для розрахунку необхідно, щоб клієнт увійшов до системи",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","Після додавання продукту перенаправлення в кошик",module,Magento_Checkout
+"My Cart Link","Посилання на кошик",module,Magento_Checkout
+"Display Cart Summary","Показати короткий огляд кошика",module,Magento_Checkout
+"Shopping Cart Sidebar","Кошик на боковій панелі",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
+"Shipping Address","Адреса доставки",module,Magento_Checkout
+"For delivery questions.","Питання для доставки.",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 Contacts,Контакти,module,Magento_Contact
 "Contact Us","Зв'яжіться з нами",module,Magento_Contact
