@@ -621,12 +621,14 @@ Catalog,Каталог,module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Ми не можемо перебудувати індекс для невизначеного продукту.",module,Magento_CatalogRule
 Home,Головна,module,Magento_CatalogSearch
 "Go to Home Page","Перейти на домашню сторінку",module,Magento_CatalogSearch
+"Catalog Advanced Search","Каталог розширеного пошуку",module,Magento_CatalogSearch
 All,Всі,module,Magento_CatalogSearch
 Yes,Так,module,Magento_CatalogSearch
 No,Ні,module,Magento_CatalogSearch
 Results,Результати,module,Magento_CatalogSearch
 Grid,Таблиця,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
+"Search Weight","Пошук за вагою",module,Magento_CatalogSearch
 Relevance,Релевантність,module,Magento_CatalogSearch
 "Search results for: '%1'","Результати пошуку: '%1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Мінімальна довжина запиту пошуку-%1",module,Magento_CatalogSearch
@@ -640,9 +642,13 @@ Product,Продукт,module,Magento_CatalogSearch
 "Search Settings","Параметри пошуку",module,Magento_CatalogSearch
 Search,Пошук,module,Magento_CatalogSearch
 "Advanced Search","Розширений пошук",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 елемент</strong> було знайдено, використовуючи такі умови пошуку",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 елементів</strong> було знайдено, використовуючи такі умови пошуку",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Ми не можемо знайти жодних елементів, що відповідають умовам пошуку.",module,Magento_CatalogSearch
 "Modify your search.","Змінити ваш пошук.",module,Magento_CatalogSearch
+name,назва,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Не побачили, що шукали?",module,Magento_CatalogSearch
+"Your search returned no results.","На Ваш запит нічого не знайдено.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Створити постійну переадресацію для старих URL",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Умови комбінації",module,Magento_CatalogWidget
 SKU,Артикул,module,Magento_CatalogWidget
@@ -1222,6 +1228,7 @@ Enabled,Ввімкнено,module,Magento_CheckoutAgreements
 Disabled,Вимкнено,module,Magento_CheckoutAgreements
 Sales,Продажі,module,Magento_CheckoutAgreements
 "Shopping Cart",Кошик,module,Magento_Checkout
+"Invalid method: %1","Помилковий метод: %1",module,Magento_Checkout
 City,Місто,module,Magento_Checkout
 Country,Країна,module,Magento_Checkout
 State/Province,Область,module,Magento_Checkout
@@ -1261,6 +1268,7 @@ Checkout,"Оформити замовлення",module,Magento_Checkout
 "Display item quantities","Відображати кількість елементу",module,Magento_Checkout
 "Shipping address is not set","Не вказано адресу доставки",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Не вдалося зберегти інформацію про доставку. Будь ласка, перевірте введені дані.",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","Спосіб доставки не є вірним для порожнього кошика",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Не можно обчислити вартість порожнього кошику",module,Magento_Checkout
 "Invalid data","Некоректні дані",module,Magento_Checkout
 "The customer address is not valid.","Некоректна адреса клієнта.",module,Magento_Checkout
@@ -1277,16 +1285,33 @@ Message,Повідомлення,module,Magento_Checkout
 "Apply Discount Code","Застосувати код знижки",module,Magento_Checkout
 "Enter discount code","Введіть код знижки",module,Magento_Checkout
 "Apply Discount","Застосувати знижку",module,Magento_Checkout
+"Cancel Coupon","Скасувати купон",module,Magento_Checkout
+"Shopping Cart Items","Товари в кошику",module,Magento_Checkout
 Item,Елемент,module,Magento_Checkout
 Price,Ціна,module,Magento_Checkout
 Qty,Кіл-ть,module,Magento_Checkout
 Subtotal,"Проміжні підсумки",module,Magento_Checkout
+"Continue Shopping","Продовжити покупки",module,Magento_Checkout
+"Clear Shopping Cart","Очистити кошик",module,Magento_Checkout
+"Update Shopping Cart","Оновити кошик",module,Magento_Checkout
+"Update Cart","Оновлення кошику",module,Magento_Checkout
+"See price before order confirmation.","Перегляньте ціну перед підтвердженням замовлення.",module,Magento_Checkout
 "What's this?","Що це?",module,Magento_Checkout
+"Edit item parameters","Редегувати параметри товару",module,Magento_Checkout
 Edit,Редагувати,module,Magento_Checkout
 "Remove item","Видалити елемент",module,Magento_Checkout
+"You have no items in your shopping cart.","У вас немає товарів в кошику.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Клацніть <a href=""%1""> тут</a> щоб продовжити покупки.",module,Magento_Checkout
+"Estimate Tax","Оцінка податків",module,Magento_Checkout
+"Estimate Shipping and Tax","Оцінка доставки та податків",module,Magento_Checkout
 "Excl. Tax","Без податків",module,Magento_Checkout
+Loading...,Завантаження...,module,Magento_Checkout
+"Order #","№ замовлення",module,Magento_Checkout
+"Proceed to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
 "Product Name","Назва Продукту",module,Magento_Checkout
 "Incl. Tax","З податками",module,Magento_Checkout
+"Your order number is: %1.","Номер замовлення: %1.",module,Magento_Checkout
+"Your order # is: <span>%1</span>.","Ваше замовлення #: <span>%1</span>.",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Ми надішлемо вам електронного листа для підтвердження замовлення з подробицями і інформацією для відстеження.",module,Magento_Checkout
 Back,Назад,module,Magento_Cms
 "Are you sure you want to do this?","Ви справді бажаєте це зробити?",module,Magento_Cms
@@ -1892,14 +1917,39 @@ Remove,Вилучити,theme,frontend/Magento/luma
 "What is this?","Що це?",module,Magento_Braintree
 "Place Order","Розмістити Замовлення",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Увага: Captcha чутливий до регістру.",module,Magento_Captcha
+"Payment Transaction Failed Reminder","Не вдалося виконати транзакцію платежу, нагадування",module,Magento_Checkout
+"Payment Transaction Failed","Не вдалося виконати транзакцію платежу",module,Magento_Checkout
+Reason,"Введіть причину",module,Magento_Checkout
+"Checkout Type","Оформити замовлення типу",module,Magento_Checkout
+Customer:,Покупець:,module,Magento_Checkout
 Items,Елементи,module,Magento_Checkout
 Total:,Всього:,module,Magento_Checkout
+"Billing Address:","Платіжна адреса:",module,Magento_Checkout
+"Shipping Address:","Адреса доставки:",module,Magento_Checkout
+"Shipping Method:","Спосіб доставки:",module,Magento_Checkout
+"Payment Method:","Спосіб оплати:",module,Magento_Checkout
+"Date & Time:","Дата & час:",module,Magento_Checkout
+"Sign In",Увійти,module,Magento_Checkout
+"Email Address","Адреса ел. пошти",module,Magento_Checkout
+Password,Пароль,module,Magento_Checkout
+"Forgot Your Password?","Забули пароль?",module,Magento_Checkout
+"My billing and shipping address are the same","Моя платіжна адреса і адреса доставки співпадають",module,Magento_Checkout
+Update,Оновити,module,Magento_Checkout
 Cancel,Скасувати,module,Magento_Checkout
+"Save in address book","Зберегти в адресну книгу",module,Magento_Checkout
+"You can create an account after checkout.","Після оформлення замовлення Ви можете створити обліковий запис.",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","У Вас вже є обліковий запис. Будь ласка, увійдіть, або продовжуйте як гість.",module,Magento_Checkout
 Login,Увійти,module,Magento_Checkout
 Close,Закрити,module,Magento_Checkout
 item,товар,module,Magento_Checkout
 items,елементи,module,Magento_Checkout
+"Go to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
+"Recently added item(s)","Нещодавно додано пункт (и)",module,Magento_Checkout
+"View and edit cart","Переглянути та редагувати кошик",module,Magento_Checkout
+"See Details","Див. докладніше",module,Magento_Checkout
+"Options Details","Параметри деталей",module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
+"Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
 "No Payment Methods","Не вибрано спосіб оплати",module,Magento_Checkout
 "Payment Information","Відомості про оплату",module,Magento_Checkout
 "No Payment method available.","Немає доступних способів оплати.",module,Magento_Checkout
