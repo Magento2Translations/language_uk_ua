@@ -511,6 +511,7 @@ Catalog,Каталог,module,Magento_CatalogRule
 "Wrong rule specified.","Вказані правила не вірні",module,Magento_CatalogRule
 Home,Головна,module,Magento_CatalogSearch
 "Go to Home Page","Перейти на домашню сторінку",module,Magento_CatalogSearch
+"Catalog Advanced Search","Каталог розширеного пошуку",module,Magento_CatalogSearch
 All,Всі,module,Magento_CatalogSearch
 Yes,Так,module,Magento_CatalogSearch
 No,Ні,module,Magento_CatalogSearch
@@ -526,7 +527,10 @@ Relevance,Релевантність,module,Magento_CatalogSearch
 "Search Settings","Параметри пошуку",module,Magento_CatalogSearch
 Search,Пошук,module,Magento_CatalogSearch
 "Advanced Search","Розширений пошук",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 елемент</strong> було знайдено, використовуючи такі умови пошуку",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 елементів</strong> було знайдено, використовуючи такі умови пошуку",module,Magento_CatalogSearch
 "Modify your search","Змінити ваш пошук",module,Magento_CatalogSearch
+name,назва,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Не побачили, що шукали?",module,Magento_CatalogSearch
 Root,Корінь,module,Magento_Catalog
 "Save Category","Зберегти категорію",module,Magento_Catalog
@@ -915,6 +919,7 @@ Enabled,Ввімкнено,module,Magento_CheckoutAgreements
 Disabled,Вимкнено,module,Magento_CheckoutAgreements
 Sales,Продажі,module,Magento_CheckoutAgreements
 "Shopping Cart",Кошик,module,Magento_Checkout
+"Invalid method: %1","Помилковий метод: %1",module,Magento_Checkout
 City,Місто,module,Magento_Checkout
 Country,Країна,module,Magento_Checkout
 State/Province,Область,module,Magento_Checkout
@@ -938,14 +943,28 @@ Checkout,"Оформити замовлення",module,Magento_Checkout
 "Invalid data","Некоректні дані",module,Magento_Checkout
 "The customer address is not valid.","Некоректна адреса клієнта.",module,Magento_Checkout
 "Invalid shipping method","Некоректний метод доставки",module,Magento_Checkout
+"Cancel Coupon","Скасувати купон",module,Magento_Checkout
+"Shopping Cart Items","Товари в кошику",module,Magento_Checkout
 Item,Елемент,module,Magento_Checkout
 Price,Ціна,module,Magento_Checkout
 Qty,Кіл-ть,module,Magento_Checkout
 Subtotal,"Проміжні підсумки",module,Magento_Checkout
+"Continue Shopping","Продовжити покупки",module,Magento_Checkout
+"Clear Shopping Cart","Очистити кошик",module,Magento_Checkout
+"Update Shopping Cart","Оновити кошик",module,Magento_Checkout
+"Update Cart","Оновлення кошику",module,Magento_Checkout
+"See price before order confirmation.","Перегляньте ціну перед підтвердженням замовлення.",module,Magento_Checkout
 "What's this?","Що це?",module,Magento_Checkout
+"Edit item parameters","Редегувати параметри товару",module,Magento_Checkout
 Edit,Редагувати,module,Magento_Checkout
 "Remove item","Видалити елемент",module,Magento_Checkout
+"You have no items in your shopping cart.","У вас немає товарів в кошику.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Клацніть <a href=""%1""> тут</a> щоб продовжити покупки.",module,Magento_Checkout
+"Estimate Shipping and Tax","Оцінка доставки та податків",module,Magento_Checkout
 "Excl. Tax","Без податків",module,Magento_Checkout
+Loading...,Завантаження...,module,Magento_Checkout
+"Order #","№ замовлення",module,Magento_Checkout
+"Proceed to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
 "Product Name","Назва Продукту",module,Magento_Checkout
 "Incl. Tax","З податками",module,Magento_Checkout
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Cms
@@ -1777,6 +1796,7 @@ Details,Докладно,module,Magento_Catalog
 "Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
 "Shipping Address","Адреса доставки",module,Magento_Checkout
 "For delivery questions.","Питання для доставки.",module,Magento_Checkout
+"Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 Contacts,Контакти,module,Magento_Contact
 "Contact Us","Зв'яжіться з нами",module,Magento_Contact
