@@ -1797,6 +1797,8 @@ Details,Докладно,module,Magento_Catalog
 "Shipping Address","Адреса доставки",module,Magento_Checkout
 "For delivery questions.","Питання для доставки.",module,Magento_Checkout
 "Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
+"Not yet calculated","Ще не підраховано",module,Magento_Checkout
+"Thank you for your purchase!","Дякуємо за покупку!",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 Contacts,Контакти,module,Magento_Contact
 "Contact Us","Зв'яжіться з нами",module,Magento_Contact
