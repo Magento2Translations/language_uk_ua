@@ -2392,6 +2392,9 @@ Shipping,Доставка,module,Magento_Checkout
 Cancel,Скасувати,module,Magento_Checkout
 "For delivery questions.","Питання для доставки.",module,Magento_Checkout
 "Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
+"Not yet calculated","Ще не підраховано",module,Magento_Checkout
+"We received your order!","Ми отримали ваше замовлення!",module,Magento_Checkout
+"Thank you for your purchase!","Дякуємо за покупку!",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 Status,Статус,module,Magento_ConfigurableProduct
 Contacts,Контакти,module,Magento_Contact
