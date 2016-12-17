@@ -2456,6 +2456,9 @@ Details,Докладно,module,Magento_Catalog
 "Display Cart Summary","Показати короткий огляд кошика",module,Magento_Checkout
 "Shopping Cart Sidebar","Кошик на боковій панелі",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
+"Not yet calculated","Ще не підраховано",module,Magento_Checkout
+"We received your order!","Ми отримали ваше замовлення!",module,Magento_Checkout
+"Thank you for your purchase!","Дякуємо за покупку!",module,Magento_Checkout
 Template,Шаблон,module,Magento_Cms
 From,Від,module,Magento_Cms
 To,До,module,Magento_Cms
