@@ -1534,7 +1534,10 @@ Remove,Вилучити,module,Magento_Integration
 Edit,Редагувати,module,Magento_Integration
 Custom,Користувацький,module,Magento_Integration
 All,Всі,module,Magento_Integration
+"Filterable (with results)","Фільтрування (з результатами)",module,Magento_LayeredNavigation
+"Filterable (no results)","Фільтрування (без результатів)",module,Magento_LayeredNavigation
 No,Ні,module,Magento_LayeredNavigation
+"Use in Layered Navigation","Використання в пошукової навігації",module,Magento_LayeredNavigation
 Position,Позиція,module,Magento_LayeredNavigation
 item,елемент,module,Magento_LayeredNavigation
 items,елементи,module,Magento_LayeredNavigation
@@ -1925,7 +1928,10 @@ Page,Сторінка,module,Magento_Widget
 "My Wish List","Мої Списки Бажань",module,Magento_Wishlist
 "Page not found.","Сторінка не знайдена.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","Ви додали %1 у Ваш кошик.",module,Magento_Wishlist
+"Please enter an email address.","Будь ласка, введіть адресу електронної пошти.",module,Magento_Wishlist
+"Please enter a valid email address.","Будь ласка, введіть коректну адресу електронної пошти.",module,Magento_Wishlist
 Comment,Коментар,module,Magento_Wishlist
+"Display number of items in wish list","Відобразити кількість товарів у списку побажань",module,Magento_Wishlist
 "The product does not exist.","Продукт не існує.",module,Magento_Wishlist
 message,повідомлення,module,Magento_Wishlist
 Message,Повідомлення,module,Magento_Wishlist
@@ -2386,11 +2392,15 @@ Details,Докладно,module,Magento_Catalog
 "Display Cart Summary","Показати короткий огляд кошика",module,Magento_Checkout
 "Shopping Cart Sidebar","Кошик на боковій панелі",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
+"Separate by "","".","Окремо від "","".",module,Magento_Checkout
 Shipping,Доставка,module,Magento_Checkout
+"Order Total","Вартість замовлення",module,Magento_Checkout
 "Shipping Address","Адреса доставки",module,Magento_Checkout
 "Save Address","Зберегти адресу",module,Magento_Checkout
 Cancel,Скасувати,module,Magento_Checkout
+"We'll send your order confirmation here.","Ми надішлемо Вам підтвердження замовлення.",module,Magento_Checkout
 "For delivery questions.","Питання для доставки.",module,Magento_Checkout
+Payment,Оплата,module,Magento_Checkout
 "Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
 "Not yet calculated","Ще не підраховано",module,Magento_Checkout
 "We received your order!","Ми отримали ваше замовлення!",module,Magento_Checkout
@@ -2483,6 +2493,10 @@ Quantity,Кількість,module,Magento_Wishlist
 Action,Дія,module,Magento_Wishlist
 Configure,Налаштувати,module,Magento_Wishlist
 Delete,Видалити,module,Magento_Wishlist
+Summary,Підсумок,theme,frontend/Magento/blank
 "Account Dashboard","Приладова дошка облікового запису",theme,frontend/Magento/blank
 "Account Information","Інформація про обліковий запис",theme,frontend/Magento/blank
+"Address Book","Адресна книга",theme,frontend/Magento/blank
+Menu,Меню,theme,frontend/Magento/blank
 Account,"Обліковий запис",theme,frontend/Magento/blank
+Settings,Налаштування,theme,frontend/Magento/blank
