@@ -1109,7 +1109,10 @@ Name,Ім'я,module,Magento_Integration
 Email,"Електронна пошта",module,Magento_Integration
 Remove,Вилучити,module,Magento_Integration
 Edit,Редагувати,module,Magento_Integration
+"Filterable (with results)","Фільтрування (з результатами)",module,Magento_LayeredNavigation
+"Filterable (no results)","Фільтрування (без результатів)",module,Magento_LayeredNavigation
 No,Ні,module,Magento_LayeredNavigation
+"Use in Layered Navigation","Використання в пошукової навігації",module,Magento_LayeredNavigation
 Position,Позиція,module,Magento_LayeredNavigation
 Previous,Попередній,module,Magento_LayeredNavigation
 "Remove This Item","Видалити Цей Елемент",module,Magento_LayeredNavigation
@@ -1431,8 +1434,10 @@ Apply,Застосувати,module,Magento_Widget
 Page,Сторінка,module,Magento_Widget
 "Wish List","Список Бажань",module,Magento_Wishlist
 "My Wish List","Мої Списки Бажань",module,Magento_Wishlist
+"%1's Wish List","%1 в список побажань",module,Magento_Wishlist
 "You added %1 to your shopping cart.","Ви додали %1 у Ваш кошик.",module,Magento_Wishlist
 Comment,Коментар,module,Magento_Wishlist
+"Display number of items in wish list","Відобразити кількість товарів у списку побажань",module,Magento_Wishlist
 "The product does not exist.","Продукт не існує.",module,Magento_Wishlist
 Message,Повідомлення,module,Magento_Wishlist
 "Add to Cart","Додати в кошик",module,Magento_Wishlist
@@ -1794,6 +1799,7 @@ Details,Докладно,module,Magento_Catalog
 "Display Cart Summary","Показати короткий огляд кошика",module,Magento_Checkout
 "Shopping Cart Sidebar","Кошик на боковій панелі",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Відображення кошика на боковій панелі",module,Magento_Checkout
+"Separate by "","".","Окремо від "","".",module,Magento_Checkout
 "Shipping Address","Адреса доставки",module,Magento_Checkout
 "For delivery questions.","Питання для доставки.",module,Magento_Checkout
 "Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
@@ -1874,3 +1880,4 @@ Quantity,Кількість,module,Magento_Wishlist
 Action,Дія,module,Magento_Wishlist
 Configure,Налаштувати,module,Magento_Wishlist
 Delete,Видалити,module,Magento_Wishlist
+Summary,Підсумок,theme,frontend/Magento/blank
