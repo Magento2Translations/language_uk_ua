@@ -1957,7 +1957,6 @@ items,елементи,module,Magento_Checkout
 "Options Details","Параметри деталей",module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
 "Cart Subtotal","Проміжний підсумок",module,Magento_Checkout
-"No Payment Methods","Не вибрано спосіб оплати",module,Magento_Checkout
 "Payment Information","Відомості про оплату",module,Magento_Checkout
 "No Payment method available.","Немає доступних способів оплати.",module,Magento_Checkout
 "You can track your order status by creating an account.","Ви можете відстежувати стан вашого замовлення, для цього необхідно створити обліковий запис.",module,Magento_Checkout
