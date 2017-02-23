@@ -329,7 +329,6 @@ Minute,Хвилина,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript може бути відключеним у Вашому браузері.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Щоб використовувати цей вебсайт, слід спочатку ввімкнути JavaScript у Вашому браузері.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Це тільки демо-магазин. Ви можете переглядати й розміщувати замовлення, але нічого не буде оброблено.",module,Magento_Backend
-"Report Bugs","Повідомити про Помилку",module,Magento_Backend
 "Store View:","Вид Магазину:",module,Magento_Backend
 "Stores Configuration","Конфігурації Магазинів",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Будь ласка, підтвердіть перемикання меж. Усі незбережені дані будуть втрачені.",module,Magento_Backend
@@ -437,6 +436,8 @@ Authorize,Авторизувати,module,Magento_Braintree
 "Credit Card Number","Номер Кредитної Картки",module,Magento_Braintree
 "Expiration Date","Дата Збігає",module,Magento_Braintree
 "Card Verification Number","Номер Підтвердження Картки",module,Magento_Braintree
+Actions,Дії,module,Magento_Braintree
+Delete,Видалити,module,Magento_Braintree
 "Percent Discount","Відсоткова знижка",module,Magento_Bundle
 "-- Select --","-- Виберіть --",module,Magento_Bundle
 Dynamic,Динамічна,module,Magento_Bundle
@@ -550,7 +551,6 @@ Always,Завжди,module,Magento_Captcha
 "Entity type model '%1' is not found","Модель типу об'єкта '%1' не знайдено",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Модель типу об\'єкта повинна бути екземпляром \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Немає типів товарів доступних для експорту.",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Модель типу об\'єкта повинна бути екземпляром Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Категорія ""%1"" не була створена.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Папка файлу '%1' не доступна для читання.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Папка файлу '%1' не доступна для запису.",module,Magento_CatalogImportExport
@@ -838,7 +838,6 @@ Categories,Категорії,module,Magento_Catalog
 "Category is not available for requested store.","Категорія недоступна для запитуваної крамниці.",module,Magento_Catalog
 "There was a category move error. %1","Сталася помилка переміщення категорії. %1",module,Magento_Catalog
 "There was a category move error.","Сталася помилка переміщення категорії.",module,Magento_Catalog
-"You moved the category","Ви перемістили категорію",module,Magento_Catalog
 "Attribute ""%1"" is required.","Атрибут ""%1"" є обов\'язковим.",module,Magento_Catalog
 "You saved the category.","Ви зберегли категорію.",module,Magento_Catalog
 "Something went wrong while saving the category.","Щось пішло не так під час збереження категорії.",module,Magento_Catalog
@@ -986,7 +985,6 @@ Disabled,Вимкнено,module,Magento_Catalog
 "The image does not exist.","Зображення не існує.",module,Magento_Catalog
 "Please correct the image file type.","Будь ласка, виправте тип файлу зображення.",module,Magento_Catalog
 "We couldn't move this file: %1.","Ми не змогли перемістити цей файл: %1.",module,Magento_Catalog
-"We can't find the image file.","Ми не в змозі знайти файл зображення.",module,Magento_Catalog
 "The option type to get group instance is incorrect.","Ти опції для отримання групового екземпляру є некоректний.",module,Magento_Catalog
 "Select type options required values rows.","Виберіть рядки необхідних значень опцій типу.",module,Magento_Catalog
 "ProductSku should be specified","Артикул товару повинен бути вказаний",module,Magento_Catalog
@@ -1061,7 +1059,6 @@ message,повідомлення,module,Magento_Catalog
 Images,Зображення,module,Magento_Catalog
 Select...,Вибрати...,module,Magento_Catalog
 "Advanced Pricing","Розширене ціноутворення",module,Magento_Catalog
-"Tier Price","Рівень ціни",module,Magento_Catalog
 "Customer Group","Група покупців",module,Magento_Catalog
 "Special Price From","Спеціальна ціна з",module,Magento_Catalog
 To,До,module,Magento_Catalog
@@ -1102,7 +1099,6 @@ Thumbnail,Мініатюра,module,Magento_Catalog
 Actions,Дії,module,Magento_Catalog
 "Schedule Update From","Заплануваи оновлення з",module,Magento_Catalog
 "Product in Websites","Товар на веб-сайтах",module,Magento_Catalog
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","Якщо ваш сайт Magento має кілька видів, ви можете встановити область застосування для певного виду.",module,Magento_Catalog
 name,назва,module,Magento_Catalog
 "Copy Data from","Копіювати дані від",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Якщо немає жодної користувацької батьківської категорії, будь ласка, використовуйте типову батьківську категорію. Можна змінити призначення категорії в будь-який час у <a href=""%1"" target=""_blank"">Товари &gt; Категорії</a>.",module,Magento_Catalog
@@ -1121,7 +1117,6 @@ Groups,Групи,module,Magento_Catalog
 "A name is required.","Необхідно вказати назву.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","Ця група містить системні атрибути. Будь ласка, перемістіть системні атрибути в іншу групу та спробуйте знову.",module,Magento_Catalog
 "Please enter a new group name.","Будь ласка, введіть назву нової групи.",module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","Група атрибутів під назвою ""/name/"" вже існує"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Вибачте, ми не в змозі виконати цей запит.",module,Magento_Catalog
 "You can't remove attributes from this attribute set.","Ви не можете видаляти атрибути з цього набору атрибутів.",module,Magento_Catalog
 "Custom Options","Користувацькі опції",module,Magento_Catalog
@@ -1279,7 +1274,6 @@ Checkout,"Оформити замовлення",module,Magento_Checkout
 "Error message!","Повідомлення про помилку!",module,Magento_Checkout
 Error!,Помилка!,module,Magento_Checkout
 "DB exception","Виняток бази даних",module,Magento_Checkout
-"Wrong minimum amount.","Некоректна мінімальна сума.",module,Magento_Checkout
 Message,Повідомлення,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Роздрукувати квитанцію</a>",module,Magento_Checkout
 "Apply Discount Code","Застосувати код знижки",module,Magento_Checkout
@@ -1330,7 +1324,6 @@ Pages,Сторінки,module,Magento_Cms
 "We can't delete root directory %1 right now.","Ми не можемо видалити кореневий каталог %1 прямо зараз.",module,Magento_Cms
 Edit,Редагувати,module,Magento_Cms
 Delete,Видалити,module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Ви дійсно бажаєте видалити запис ${ $.$data.title }?",module,Magento_Cms
 "Page not found.","Сторінка не знайдена.",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","На жаль, вибрана, вами валюта, не встановлена.",module,Magento_Config
 "We can't save the Cron expression.","Ми не можемо зберегти команду для Сron.",module,Magento_Config
@@ -1679,7 +1672,6 @@ Status,Статус,module,Magento_SalesRule
 Catalog,Каталог,module,Magento_SalesRule
 Discount,Знижка,module,Magento_SalesRule
 Subtotal,"Проміжні підсумки",module,Magento_SalesRule
-"Payment Method","Спосіб оплати",module,Magento_SalesRule
 "Shipping Method","Спосіб доставки",module,Magento_SalesRule
 Orders,Замовлення,module,Magento_Sales
 Shipping,Доставка,module,Magento_Sales
@@ -1947,12 +1939,8 @@ Cancel,Скасувати,module,Magento_Checkout
 "You can create an account after checkout.","Після оформлення замовлення Ви можете створити обліковий запис.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","У Вас вже є обліковий запис. Будь ласка, увійдіть, або продовжуйте як гість.",module,Magento_Checkout
 Login,Увійти,module,Magento_Checkout
-Close,Закрити,module,Magento_Checkout
 item,товар,module,Magento_Checkout
 items,елементи,module,Magento_Checkout
-"Go to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
-"Recently added item(s)","Нещодавно додано пункт (и)",module,Magento_Checkout
-"View and edit cart","Переглянути та редагувати кошик",module,Magento_Checkout
 "See Details","Див. докладніше",module,Magento_Checkout
 "Options Details","Параметри деталей",module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
@@ -1972,8 +1960,6 @@ edit,редагувати,module,Magento_Checkout
 "Carrier Title","Назва перевізника",module,Magento_Checkout
 Next,Наступний,module,Magento_Checkout
 "Order Summary",Всього,module,Magento_Checkout
-"Item in Cart","Товар в кошику",module,Magento_Checkout
-"Items in Cart","Товари в кошику",module,Magento_Checkout
 "View Details",Детальніше,module,Magento_Checkout
 "Contact Form","Контактна форма",module,Magento_Contact
 "Name: %name","Ім'я: %name",module,Magento_Contact
@@ -2413,9 +2399,7 @@ Content,Вміст,module,Magento_Catalog
 "Add CMS Block","Додати CMS-блок",module,Magento_Catalog
 "Display Settings","Налаштування показу",module,Magento_Catalog
 Anchor,Якір,module,Magento_Catalog
-"Sort Products By","Сортувати товари за",module,Magento_Catalog
 "Use All","Використати все",module,Magento_Catalog
-"Default Product Sorting","Типове сортування товарів",module,Magento_Catalog
 "Layered Navigation Price Step","Крок ціни у багаторівневій навігації",module,Magento_Catalog
 "URL Key","Ключ URL-адреси",module,Magento_Catalog
 "Meta Title","Meta заголовок",module,Magento_Catalog
@@ -2423,7 +2407,6 @@ Anchor,Якір,module,Magento_Catalog
 "Meta Description","Meta опис",module,Magento_Catalog
 "Products in Category","Товари в категорії",module,Magento_Catalog
 Design,Дизайн,module,Magento_Catalog
-"Use Parent Category Settings","Використовувати параметри батьківської категорії",module,Magento_Catalog
 Theme,Тема,module,Magento_Catalog
 Layout,Розмітка,module,Magento_Catalog
 "Layout Update XML","XML оновлення розмітки",module,Magento_Catalog
