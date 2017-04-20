@@ -1545,14 +1545,20 @@ Subtotal,"Проміжні підсумки",module,Magento_Multishipping
 Items,Елементи,module,Magento_Multishipping
 Back,Назад,module,Magento_Newsletter
 Reset,Очистити,module,Magento_Newsletter
+Subject,Тема,module,Magento_Newsletter
+"Sender Name","Ім'я Відправника",module,Magento_Newsletter
+"Sender Email","Електронна Пошта Відправника",module,Magento_Newsletter
 Message,Повідомлення,module,Magento_Newsletter
 Start,Початок,module,Magento_Newsletter
 Pause,Пауза,module,Magento_Newsletter
 Cancel,Скасувати,module,Magento_Newsletter
 Resume,Відновити,module,Magento_Newsletter
+Preview,Перегляд,module,Magento_Newsletter
 Template,Шаблон,module,Magento_Newsletter
 Updated,Оновлено,module,Magento_Newsletter
 Action,Дія,module,Magento_Newsletter
+"You unsubscribed.","Ви відписались.",module,Magento_Newsletter
+Subscribe,Підписатися,module,Magento_Newsletter
 Country,Країна,module,Magento_OfflineShipping
 "Zip/Postal Code","Поштовий індекс",module,Magento_OfflineShipping
 None,Жоден,module,Magento_OfflineShipping
@@ -1980,6 +1986,7 @@ Cancel,Скасувати,module,Magento_Checkout
 Login,Увійти,module,Magento_Checkout
 item,товар,module,Magento_Checkout
 items,елементи,module,Magento_Checkout
+"Go to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
 "See Details","Див. докладніше",module,Magento_Checkout
 "Options Details","Параметри деталей",module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
@@ -2012,6 +2019,7 @@ Password:,Пароль:,module,Magento_Customer
 "View past orders","Переглянути останні замовлення",module,Magento_Customer
 Edit,Редагувати,module,Magento_GiftMessage
 Delete,Видалити,module,Magento_GiftMessage
+"You have been successfully subscribed to our newsletter.","Ви успішно підписалися на розсилку новин.",module,Magento_Newsletter
 "Billing Info","Інформація щодо сплати",module,Magento_Sales
 "Shipping Info","Інформація щодо доставки",module,Magento_Sales
 "Welcome to %store_name.","Ласкаво просимо до %store_name.",theme,frontend/Magento/luma
@@ -2522,11 +2530,13 @@ Updated,Оновлено,module,Magento_Indexer
 Status,Статус,module,Magento_Integration
 General,Загальні,module,Magento_NewRelicReporting
 Status,Статус,module,Magento_Newsletter
+Unsubscribe,Відписатися,module,Magento_Newsletter
 Delete,Видалити,module,Magento_Newsletter
 Email,"Електронна пошта",module,Magento_Newsletter
 Type,Тип,module,Magento_Newsletter
 Guest,Гість,module,Magento_Newsletter
 Customer,Покупець,module,Magento_Newsletter
+Subscribed,Підписаний,module,Magento_Newsletter
 "Web Site",Веб-сайт,module,Magento_Newsletter
 Store,Магазин,module,Magento_Newsletter
 Enabled,Ввімкнено,module,Magento_OfflinePayments
