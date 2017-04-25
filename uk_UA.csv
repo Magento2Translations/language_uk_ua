@@ -1987,6 +1987,7 @@ Login,Увійти,module,Magento_Checkout
 item,товар,module,Magento_Checkout
 items,елементи,module,Magento_Checkout
 "Go to Checkout","Перейти до оформлення замовлення",module,Magento_Checkout
+"View and edit cart","Переглянути та редагувати кошик",module,Magento_Checkout
 "See Details","Див. докладніше",module,Magento_Checkout
 "Options Details","Параметри деталей",module,Magento_Checkout
 Remove,Вилучити,module,Magento_Checkout
