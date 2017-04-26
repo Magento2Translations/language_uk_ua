@@ -2007,6 +2007,7 @@ edit,редагувати,module,Magento_Checkout
 "Carrier Title","Назва перевізника",module,Magento_Checkout
 Next,Наступний,module,Magento_Checkout
 "Order Summary",Всього,module,Magento_Checkout
+"Item in Cart","Товар в кошику",module,Magento_Checkout
 "View Details",Детальніше,module,Magento_Checkout
 "Contact Form","Контактна форма",module,Magento_Contact
 "Name: %name","Ім'я: %name",module,Magento_Contact
