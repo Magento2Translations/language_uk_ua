@@ -1056,8 +1056,11 @@ Store,Магазин,module,Magento_Customer
 "Contact Information","Контактна інформація",module,Magento_Customer
 "Change Password","Змінити пароль",module,Magento_Customer
 Newsletters,"Розсилки новин",module,Magento_Customer
+"Default Addresses","Адреси за промовчанням",module,Magento_Customer
 "You have no default billing address in your address book.","У Вас немає адреси виставлення рахунка за промовчанням у Вашій адресній книзі.",module,Magento_Customer
+"Change Shipping Address","Змінити адресу доставки",module,Magento_Customer
 "You have no default shipping address in your address book.","У Вас немає адреси доставки за промовчанням у Вашій адресній книзі.",module,Magento_Customer
+"Additional Address Entries","Записи додаткових адрес",module,Magento_Customer
 "* Required Fields","* Обов'язкові поля",module,Magento_Customer
 Company,Компанія,module,Magento_Customer
 Fax,Факс,module,Magento_Customer
@@ -1156,7 +1159,7 @@ Previous,Попередній,module,Magento_LayeredNavigation
 "Shop By","Продукція за",module,Magento_LayeredNavigation
 "Clear All","Очистити всі",module,Magento_LayeredNavigation
 "Shopping Options","Варіанти товарів",module,Magento_LayeredNavigation
-"Change Billing Address","Змінити платіжну адресу",module,Magento_Multishipping
+"Change Billing Address","Змінити адресу виставлення рахунка",module,Magento_Multishipping
 Total,Загалом,module,Magento_Multishipping
 Product,Продукт,module,Magento_Multishipping
 Qty,Кіл-ть,module,Magento_Multishipping
