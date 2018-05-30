@@ -437,6 +437,7 @@ Country,Країна,module,Magento_Braintree
 "Sorry, but something went wrong","На жаль, але щось пішло не так",module,Magento_Braintree
 "We can't initialize checkout.","Ми не можемо ініціалізувати розрахунок.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","Немає авторизації транзакції для продовження запису.",module,Magento_Braintree
+"Wrong transaction status","Хибний статус транзакції",module,Magento_Braintree
 Authorize,Авторизувати,module,Magento_Braintree
 "Authorize and Capture","Авторизувати та Захопити",module,Magento_Braintree
 "--Please Select--","--Будь-ласка, Оберіть--",module,Magento_Braintree
