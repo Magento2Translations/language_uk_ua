@@ -486,6 +486,7 @@ Always,Завжди,module,Magento_Captcha
 "Only %1 left","Тільки %1 залишилося",module,Magento_CatalogInventory
 "Product Name","Назва товару",module,Magento_CatalogInventory
 Qty,Кіл-ть,module,Magento_CatalogInventory
+"Catalog Price Rule","Правило цін каталога",module,Magento_CatalogRule
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_CatalogRule
 "Edit Rule '%1'","Редагування правила '%1'",module,Magento_CatalogRule
 "New Rule","Нове правило",module,Magento_CatalogRule
@@ -508,6 +509,7 @@ Priority,Пріоритет,module,Magento_CatalogRule
 Type,Тип,module,Magento_CatalogRule
 SKU,Артикул,module,Magento_CatalogRule
 Product,Продукт,module,Magento_CatalogRule
+Promotions,Заохочення,module,Magento_CatalogRule
 "This rule no longer exists.","Цього правила більше не існує.",module,Magento_CatalogRule
 "New Catalog Price Rule","Нове правило цін каталогу",module,Magento_CatalogRule
 "Edit Rule","Редагувати правило",module,Magento_CatalogRule
@@ -936,6 +938,10 @@ Status,Статус,module,Magento_CheckoutAgreements
 Enabled,Ввімкнено,module,Magento_CheckoutAgreements
 Disabled,Вимкнено,module,Magento_CheckoutAgreements
 "Show Content as","Показати зміст як",module,Magento_CheckoutAgreements
+Text,Текст,module,Magento_CheckoutAgreements
+Content,Контент,module,Magento_CheckoutAgreements
+"Content Height (css)","Висота контенту (css)",module,Magento_CheckoutAgreements
+"Content Height","Висота контенту",module,Magento_CheckoutAgreements
 Sales,Продажі,module,Magento_CheckoutAgreements
 "This condition no longer exists.","Цієї умови більше не існує.",module,Magento_CheckoutAgreements
 "Something went wrong  while deleting this condition.","Під час видалення умови сталася помилка.",module,Magento_CheckoutAgreements
@@ -1001,17 +1007,29 @@ Loading...,Завантаження...,module,Magento_Checkout
 Status,Статус,module,Magento_Cms
 Enabled,Ввімкнено,module,Magento_Cms
 Disabled,Вимкнено,module,Magento_Cms
+Content,Контент,module,Magento_Cms
 Title,Назва,module,Magento_Cms
+"Manage Pages","Управління сторінками",module,Magento_Cms
+"Add New Page","Додати нову сторінку",module,Magento_Cms
+"Save Page","Зберегти сторінку",module,Magento_Cms
+"Delete Page","Видалити сторінку",module,Magento_Cms
 "Edit Page '%1'","Редагувати сторінку '%1'",module,Magento_Cms
+"New Page","Нова сторінка",module,Magento_Cms
 "Page Layout","Розмітка сторінки",module,Magento_Cms
+Layout,Розмітка,module,Magento_Cms
 "Custom Design","Користувацький Дизайн",module,Magento_Cms
 "Custom Design From","Користувальницький дизайн від",module,Magento_Cms
 "Custom Design To","Користувальницький дизайн до",module,Magento_Cms
+"Custom Layout","Користувацька розмітка",module,Magento_Cms
 "Custom Layout Update XML","Користувальницьке оновлення розмітки XML",module,Magento_Cms
+Design,Дизайн,module,Magento_Cms
+"Page Title","Заголовок сторінки",module,Magento_Cms
+"URL Key","Ключ URL-адреси",module,Magento_Cms
 "Relative to Web Site Base URL","Відносно базової URL-адреси веб-сайту",module,Magento_Cms
 "Page Status","Статус сторінки",module,Magento_Cms
 "Meta Data",Мета-дані,module,Magento_Cms
 Keywords,"Ключові слова",module,Magento_Cms
+"Meta Keywords","Meta ключові слова",module,Magento_Cms
 Description,Описання,module,Magento_Cms
 "Meta Description","Meta опис",module,Magento_Cms
 Action,Дія,module,Magento_Cms
@@ -1020,7 +1038,9 @@ Home,Головна,module,Magento_Cms
 "This block no longer exists.","Цього блоку більше не існує.",module,Magento_Cms
 "Edit Block","Редагувати блок",module,Magento_Cms
 Blocks,Блоки,module,Magento_Cms
+"Edit Page","Редагувати сторінку",module,Magento_Cms
 Pages,Сторінки,module,Magento_Cms
+Configuration,Налаштування,module,Magento_Config
 "Choose an Option...","Виберіть варіант...",module,Magento_ConfigurableProduct
 Price,Ціна,module,Magento_ConfigurableProduct
 Quantity,Кількість,module,Magento_ConfigurableProduct
@@ -1036,6 +1056,7 @@ Weekly,Щотижневий,module,Magento_Cron
 Monthly,Щомісячно,module,Magento_Cron
 Reset,Очистити,module,Magento_CurrencySymbol
 Import,Імпорт,module,Magento_CurrencySymbol
+"You subscribe to our newsletter.","Ви підписалися на нашу розсилку новин.",module,Magento_Customer
 "You have not set a default shipping address.","Ви не налаштували адресу доставки за промовчанням.",module,Magento_Customer
 "You have not set a default billing address.","Ви не налаштували адресу виставлення рахунка за промовчанням.",module,Magento_Customer
 "Address Book","Адресна книга",module,Magento_Customer
@@ -1058,6 +1079,8 @@ Total,Загалом,module,Magento_Customer
 Action,Дія,module,Magento_Customer
 Configure,Налаштувати,module,Magento_Customer
 Delete,Видалити,module,Magento_Customer
+Newsletter,"Розсилка новин",module,Magento_Customer
+"Newsletter Information","Розсилка інформації",module,Magento_Customer
 "End Date","Дата Закінчення",module,Magento_Customer
 Status,Статус,module,Magento_Customer
 Cancel,Скасувати,module,Magento_Customer
@@ -1065,10 +1088,17 @@ Order,Замовлення,module,Magento_Customer
 "Ship-to Name","Ім'я отримувача",module,Magento_Customer
 Qty,Кіл-ть,module,Magento_Customer
 "The customer does not have default billing address.","Покупець не має адреси виставлення рахунка за промовчанням.",module,Magento_Customer
+Offline,"Не в мережі",module,Magento_Customer
 Never,Ніколи,module,Magento_Customer
 "Days in Wish List","Днів у Списку Бажань",module,Magento_Customer
 No,Ні,module,Magento_Customer
 Yes,Так,module,Magento_Customer
+"Customer Groups","Групи Покупців",module,Magento_Customer
+"Add New Customer Group","Додати нову групу покупців",module,Magento_Customer
+"Save Customer Group","Зберегти групу покупців",module,Magento_Customer
+"Delete Customer Group","Видалити групу покупців",module,Magento_Customer
+"New Customer Group","Нові група покупців",module,Magento_Customer
+"Edit Customer Group ""%1""","Редагувати групу покупців ""%1""",module,Magento_Customer
 "Customer Login","Вхід покупця",module,Magento_Customer
 "Create New Customer Account","Створити новий обліковий запис покупця",module,Magento_Customer
 "Date of Birth","Дата народження",module,Magento_Customer
@@ -1077,13 +1107,20 @@ Yes,Так,module,Magento_Customer
 "My Account","Мій обліковий запис",module,Magento_Customer
 "Invalid login or password.","Невірне ім\'я користувача або пароль.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Значення нового пароля і підтвердження нового пароля не збігаються.",module,Magento_Customer
+"The customer group no longer exists.","Група покупців вже не існує.",module,Magento_Customer
 Customers,Покупці,module,Magento_Customer
+"New Customer Groups","Нові групи покупців",module,Magento_Customer
+"Edit Customer Groups","Редагувати групи покупців",module,Magento_Customer
 "Please enter the zip/postal code.","Будь ласка, вкажіть поштовий індекс.",module,Magento_Customer
+"Shipping Address","Адреса доставки",module,Magento_Customer
 Admin,Адміністратор,module,Magento_Customer
+label,етикетка,module,Magento_Customer
 "Customer Group","Група Покупців",module,Magento_Customer
+"Customer Group already exists.","Така група покупців вже існує.",module,Magento_Customer
 Edit,Редагувати,module,Magento_Customer
 Customer,Покупець,module,Magento_Customer
 "Personal Information","Персональна інформація",module,Magento_Customer
+"Customer Group:","Група покупців:",module,Magento_Customer
 "Default Billing Address","Адреса виставлення рахунка за промовчанням",module,Magento_Customer
 "Web Site",Веб-сайт,module,Magento_Customer
 Store,Магазин,module,Magento_Customer
@@ -1092,6 +1129,7 @@ Store,Магазин,module,Magento_Customer
 "Contact Information","Контактна інформація",module,Magento_Customer
 "Change Password","Змінити пароль",module,Magento_Customer
 Newsletters,"Розсилки новин",module,Magento_Customer
+or,чи,module,Magento_Customer
 "Default Addresses","Адреси за промовчанням",module,Magento_Customer
 "You have no default billing address in your address book.","У Вас немає адреси виставлення рахунка за промовчанням у Вашій адресній книзі.",module,Magento_Customer
 "Change Shipping Address","Змінити адресу доставки",module,Magento_Customer
@@ -1132,6 +1170,7 @@ Depth,Глибина,module,Magento_Dhl
 Width,Ширина,module,Magento_Dhl
 None,Жоден,module,Magento_Dhl
 State/Province,Область,module,Magento_Directory
+label,етикетка,module,Magento_Directory
 "All Files","Всі файли",module,Magento_Downloadable
 "My Downloadable Products","Мої завантажувані товари",module,Magento_Downloadable
 Links,Посилання,module,Magento_Downloadable
@@ -1152,12 +1191,14 @@ Status,Статус,module,Magento_Downloadable
 "View Order","Переглянути замовлення",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","Ви ще не придбали жодних завантажуваних товарів.",module,Magento_Downloadable
 Back,Назад,module,Magento_Downloadable
+To:,До:,module,Magento_Downloadable
 Qty,Кіл-ть,module,Magento_Downloadable
 Yes,Так,module,Magento_Eav
 No,Ні,module,Magento_Eav
 None,Жоден,module,Magento_Eav
 Email,"Електронна пошта",module,Magento_Eav
 Date,Дата,module,Magento_Eav
+label,етикетка,module,Magento_Eav
 Back,Назад,module,Magento_Email
 Reset,Очистити,module,Magento_Email
 "Delete Template","Видалити шаблон",module,Magento_Email
@@ -1175,6 +1216,7 @@ To,До,module,Magento_GiftMessage
 Message,Повідомлення,module,Magento_GiftMessage
 Cancel,Скасувати,module,Magento_GiftMessage
 OK,ОК,module,Magento_GiftMessage
+"Grouped Products","Групові товари",module,Magento_GroupedProduct
 "Out of stock","Немає у наявності",module,Magento_GroupedProduct
 SKU,Артикул,module,Magento_GroupedProduct
 "Product Name","Назва товару",module,Magento_GroupedProduct
@@ -1188,6 +1230,7 @@ From,Від,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
 Filter,Фільтр,module,Magento_ImportExport
 Status,Статус,module,Magento_ImportExport
+label,етикетка,module,Magento_ImportExport
 "Update on Save","Оновлення під час збереження",module,Magento_Indexer
 Processing,Обробка,module,Magento_Indexer
 Never,Ніколи,module,Magento_Indexer
@@ -1211,6 +1254,7 @@ Previous,Попередній,module,Magento_LayeredNavigation
 "Shopping Options","Варіанти товарів",module,Magento_LayeredNavigation
 "Change Billing Address","Змінити адресу виставлення рахунка",module,Magento_Multishipping
 Total,Загалом,module,Magento_Multishipping
+"Shipping Methods","Способи доставки",module,Magento_Multishipping
 "Edit Address","Редагувати адресу",module,Magento_Multishipping
 "Edit Billing Address","Адреса для виставлення рахунків",module,Magento_Multishipping
 "Edit Shipping Address","Адреса доставки",module,Magento_Multishipping
@@ -1229,6 +1273,9 @@ Items,Елементи,module,Magento_Multishipping
 "Grand Total:","Загальний підсумок:",module,Magento_Multishipping
 Back,Назад,module,Magento_Newsletter
 Reset,Очистити,module,Magento_Newsletter
+"Save Newsletter","Зберегти Розсилку Новин",module,Magento_Newsletter
+"View Newsletter","Переглянути Розсилку Новин",module,Magento_Newsletter
+"Edit Newsletter","Редагувати Розсилку Новин",module,Magento_Newsletter
 Subject,Тема,module,Magento_Newsletter
 "Sender Name","Ім'я Відправника",module,Magento_Newsletter
 "Sender Email","Електронна Пошта Відправника",module,Magento_Newsletter
@@ -1241,6 +1288,7 @@ Preview,Перегляд,module,Magento_Newsletter
 Template,Шаблон,module,Magento_Newsletter
 Updated,Оновлено,module,Magento_Newsletter
 Action,Дія,module,Magento_Newsletter
+Newsletter,"Розсилка новин",module,Magento_Newsletter
 "Newsletter Subscription","Підписка на розсилку новин",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Підпишіться на нашу розсилку новин:",module,Magento_Newsletter
 Subscribe,Підписатися,module,Magento_Newsletter
@@ -1269,6 +1317,7 @@ Updated,Оновлено,module,Magento_Paypal
 Back,Назад,module,Magento_Paypal
 "Are you sure you want to do this?","Ви справді бажаєте це зробити?",module,Magento_Paypal
 Cancel,Скасувати,module,Magento_Paypal
+"Related Orders","Повязані замовлення",module,Magento_Paypal
 Order,Замовлення,module,Magento_Paypal
 Help,Допомога,module,Magento_Paypal
 Configure,Налаштувати,module,Magento_Paypal
@@ -1294,6 +1343,9 @@ Customer,Покупець,module,Magento_Paypal
 "Payment Method","Спосіб оплати",module,Magento_Paypal
 "There are no billing agreements yet.","Ще немає жодної білінгової угоди.",module,Magento_Paypal
 "Shipping Method","Спосіб доставки",module,Magento_Paypal
+"Please select a shipping method...","Будь ласка, виберіть спосіб доставки...",module,Magento_Paypal
+"Update Shipping Method","Обновіть спосіб доставки",module,Magento_Paypal
+"Shipping Address","Адреса доставки",module,Magento_Paypal
 Edit,Редагувати,module,Magento_Paypal
 "Edit Shopping Cart","Редагувати Кошик",module,Magento_Paypal
 Price,Ціна,module,Magento_Paypal
@@ -1301,6 +1353,7 @@ Qty,Кіл-ть,module,Magento_Paypal
 Subtotal,"Проміжні підсумки",module,Magento_Paypal
 "Welcome, %1!","Ласкаво просимо, %1!",module,Magento_Persistent
 Price:,Ціна:,module,Magento_ProductAlert
+Url,URL-адреса,module,Magento_ProductVideo
 "Grand Total","Загальний підсумок",module,Magento_Quote
 "Shipping & Handling (%1)","Доставка та оброблення (%1)",module,Magento_Quote
 "Shipping & Handling","Доставка та оброблення",module,Magento_Quote
@@ -1308,18 +1361,25 @@ Shipping,Доставка,module,Magento_Quote
 Subtotal,"Проміжні підсумки",module,Magento_Quote
 Discount,Знижка,module,Magento_Quote
 Tax,Податок,module,Magento_Quote
+"New Accounts","Новий акаунт",module,Magento_Reports
 Filter,Фільтр,module,Magento_Reports
 Day,День,module,Magento_Reports
 Month,Місяць,module,Magento_Reports
 Year,Рік,module,Magento_Reports
+Period,Період,module,Magento_Reports
 From,Від,module,Magento_Reports
 To,До,module,Magento_Reports
 Yes,Так,module,Magento_Reports
 No,Ні,module,Magento_Reports
+"Empty Rows","Нема записів",module,Magento_Reports
+"Invalid date specified","Вказана невірна дата",module,Magento_Reports
 Refresh,Оновити,module,Magento_Reports
+"Show Reviews","Показати відгуки",module,Magento_Reports
+Downloads,Завантаження,module,Magento_Reports
 Product,Продукт,module,Magento_Reports
 Link,Посилання,module,Magento_Reports
 SKU,Артикул,module,Magento_Reports
+Interval,Інтервал,module,Magento_Reports
 Total,Загалом,module,Magento_Reports
 Price,Ціна,module,Magento_Reports
 Views,Перегляди,module,Magento_Reports
@@ -1329,13 +1389,20 @@ Subtotal,"Проміжні підсумки",module,Magento_Reports
 Uses,Використовує,module,Magento_Reports
 Discount,Знижка,module,Magento_Reports
 Orders,Замовлення,module,Magento_Reports
+"Invoiced Orders","Оплачені замовлення",module,Magento_Reports
 "Total Invoiced","Загалом виставлено рахунків",module,Magento_Reports
+"Refunded Orders","Повернені замовлення",module,Magento_Reports
 Items,Елементи,module,Magento_Reports
+Profit,Прибуток,module,Magento_Reports
+Invoiced,"Виставлено рахунок",module,Magento_Reports
 Paid,Сплачені,module,Magento_Reports
+Refunded,Повернено,module,Magento_Reports
 Tax,Податок,module,Magento_Reports
 Shipping,Доставка,module,Magento_Reports
+Canceled,Скасовано,module,Magento_Reports
 Rate,Ставка,module,Magento_Reports
 Email,"Електронна пошта",module,Magento_Reports
+Products,Товари,module,Magento_Reports
 Quantity,Кількість,module,Magento_Reports
 Updated,Оновлено,module,Magento_Reports
 Customers,Покупці,module,Magento_Reports
@@ -1383,6 +1450,8 @@ Back,Назад,module,Magento_Review
 "Be the first to review this product","Будьте першим, хто відгукнеться про цей товар",module,Magento_Review
 "* Required Fields","* Обов'язкові поля",module,Magento_Review
 Apply,Застосувати,module,Magento_Rule
+to,до,module,Magento_Rule
+is,є,module,Magento_Rule
 Remove,Вилучити,module,Magento_Rule
 Category,Категорія,module,Magento_Rule
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_SalesRule
@@ -1392,14 +1461,19 @@ Yes,Так,module,Magento_SalesRule
 No,Ні,module,Magento_SalesRule
 Uses,Використовує,module,Magento_SalesRule
 Delete,Видалити,module,Magento_SalesRule
+Labels,Етикетки,module,Magento_SalesRule
 Description,Опис,module,Magento_SalesRule
 Status,Статус,module,Magento_SalesRule
+"Customer Groups","Групи Покупців",module,Magento_SalesRule
 Rule,Правило,module,Magento_SalesRule
+Promotions,Заохочення,module,Magento_SalesRule
 Catalog,Каталог,module,Magento_SalesRule
 Discount,Знижка,module,Magento_SalesRule
+"Special Price","Спеціальна ціна",module,Magento_SalesRule
 Subtotal,"Проміжні підсумки",module,Magento_SalesRule
 "Payment Method","Спосіб оплати",module,Magento_SalesRule
 "Shipping Method","Спосіб доставки",module,Magento_SalesRule
+is,є,module,Magento_SalesRule
 Orders,Замовлення,module,Magento_Sales
 Invoices,Рахунки,module,Magento_Sales
 Cancel,Скасувати,module,Magento_Sales
@@ -1414,6 +1488,7 @@ Configure,Налаштувати,module,Magento_Sales
 Product,Продукт,module,Magento_Sales
 Price,Ціна,module,Magento_Sales
 Quantity,Кількість,module,Magento_Sales
+"Shipping Address","Адреса доставки",module,Magento_Sales
 "Shipping Method","Спосіб доставки",module,Magento_Sales
 "Shopping Cart",Кошик,module,Magento_Sales
 "Last Ordered Items","Останні замовлені позиції",module,Magento_Sales
@@ -1424,6 +1499,7 @@ Edit,Редагувати,module,Magento_Sales
 Reorder,"Повторити замовлення",module,Magento_Sales
 "Order History","Історія замовлень",module,Magento_Sales
 "Order Information","Відомості про замовлення",module,Magento_Sales
+Transactions,"Платіжні операції",module,Magento_Sales
 Any,Будь-який,module,Magento_Sales
 Yes,Так,module,Magento_Sales
 No,Ні,module,Magento_Sales
@@ -1433,11 +1509,13 @@ N/A,Н/Д,module,Magento_Sales
 "My Orders","Мої замовлення",module,Magento_Sales
 "Grand Total to be Charged","Загальний підсумок до оплати",module,Magento_Sales
 Sales,Продажі,module,Magento_Sales
+"Orders and Returns","Замовлення і повернення",module,Magento_Sales
 Home,Головна,module,Magento_Sales
 Guest,Гість,module,Magento_Sales
 Paid,Сплачені,module,Magento_Sales
 Order,Замовлення,module,Magento_Sales
 "Ship to:",Отримувач:,module,Magento_Sales
+"Shipping Method:","Спосіб доставки:",module,Magento_Sales
 Title,Назва,module,Magento_Sales
 Qty,Кіл-ть,module,Magento_Sales
 "Excl. Tax","Без податків",module,Magento_Sales
@@ -1461,6 +1539,7 @@ Action,Дія,module,Magento_Sales
 "No ordered items","Немає замовлених позицій",module,Magento_Sales
 "Total %1 product(s)","Всього %1 продукт(ів)",module,Magento_Sales
 Subtotal:,"Проміжний підсумок:",module,Magento_Sales
+"Subscribe to Newsletter","Підписка на розсилку",module,Magento_Sales
 Refresh,Оновити,module,Magento_Sales
 Item,Позиція,module,Magento_Sales
 "Shipping &amp; Handling","Доставка та оброблення",module,Magento_Sales
@@ -1486,6 +1565,7 @@ Print,Друк,module,Magento_Shipping
 "Back to My Orders","Повернутися до моїх замовлень",module,Magento_Shipping
 Type,Тип,module,Magento_Shipping
 Width,Ширина,module,Magento_Shipping
+Contents,Контент,module,Magento_Shipping
 Size,Розмір,module,Magento_Shipping
 Product,Продукт,module,Magento_Shipping
 Qty,Кіл-ть,module,Magento_Shipping
@@ -1494,6 +1574,7 @@ Qty,Кіл-ть,module,Magento_Shipping
 "Product Name","Назва товару",module,Magento_Shipping
 Delete,Видалити,module,Magento_Shipping
 Cancel,Скасувати,module,Magento_Shipping
+in,в,module,Magento_Shipping
 cm,см,module,Magento_Shipping
 kg,кг,module,Magento_Shipping
 Title,Назва,module,Magento_Shipping
@@ -1526,10 +1607,12 @@ Name,Ім'я,module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Доставка та оброблення (включаючи податки)",module,Magento_Tax
 Sales,Продажі,module,Magento_Tax
 Tax,Податок,module,Magento_Tax
+"Shipping Address","Адреса доставки",module,Magento_Tax
 Code,Код,module,Magento_Tax
 Subtotal,"Проміжні підсумки",module,Magento_Tax
 Total,Загалом,module,Magento_Tax
 None,Жоден,module,Magento_Tax
+"customer group","група покупців",module,Magento_Tax
 "Incl. Tax","З податками",module,Magento_Tax
 "Excl. Tax","Без податків",module,Magento_Tax
 Note:,Примітка:,module,Magento_Tax
@@ -1537,6 +1620,7 @@ Save,Зберегти,module,Magento_Tax
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Theme
 General,Загальні,module,Magento_Theme
 Theme,Тема,module,Magento_Theme
+label,етикетка,module,Magento_Theme
 Remove,Вилучити,module,Magento_Theme
 "Items %1 to %2 of %3 total","Позиції з %1 по %2 із %3 всього",module,Magento_Theme
 Page,Сторінка,module,Magento_Theme
@@ -1548,11 +1632,14 @@ Close,Закрити,module,Magento_Theme
 Minute,Хвилина,module,Magento_Theme
 status,статус,module,Magento_Ups
 None,Жоден,module,Magento_Ups
+label,етикетка,module,Magento_Ups
 Category:,Категорія:,module,Magento_UrlRewrite
 Name,Ім'я,module,Magento_UrlRewrite
 SKU,Артикул,module,Magento_UrlRewrite
 Status,Статус,module,Magento_UrlRewrite
+"CMS page:","CMS Сторінка:",module,Magento_UrlRewrite
 Title,Назва,module,Magento_UrlRewrite
+"URL Key","Ключ URL-адреси",module,Magento_UrlRewrite
 Reset,Очистити,module,Magento_UrlRewrite
 Back,Назад,module,Magento_UrlRewrite
 Delete,Видалити,module,Magento_UrlRewrite
@@ -1561,6 +1648,7 @@ Save,Зберегти,module,Magento_UrlRewrite
 Description,Опис,module,Magento_UrlRewrite
 Store,Магазин,module,Magento_UrlRewrite
 Custom,Користувацький,module,Magento_UrlRewrite
+"For CMS page","Для CMS сторінки",module,Magento_UrlRewrite
 No,Ні,module,Magento_UrlRewrite
 "Select Category","Виберіть Категорію",module,Magento_UrlRewrite
 Back,Назад,module,Magento_User
@@ -1579,11 +1667,16 @@ Status,Статус,module,Magento_User
 Users,Користувачі,module,Magento_User
 "Account Information","Інформація про обліковий запис",module,Magento_User
 "User Email","Email Користувача",module,Magento_User
+Password,Пароль,module,Magento_User
 "New Password","Новий пароль",module,Magento_User
 "Password Confirmation","Підтвердження пароля",module,Magento_User
+"Your Password","Ваш Пароль",module,Magento_User
 Role,Роль,module,Magento_User
 "Your password confirmation must match your password.","Ваше підтвердження пароля повинне відповідати Вашому паролеві.",module,Magento_User
+"Forgot your password?","Забули Ваш пароль?",module,Magento_User
+"Reset a Password","Скинути пароль",module,Magento_User
 "Confirm New Password","Підтвердьте новий пароль",module,Magento_User
+"Reset Password","Скинути пароль",module,Magento_User
 Custom,Користувацький,module,Magento_User
 All,Всі,module,Magento_User
 Large,Великий,module,Magento_Usps
@@ -1594,11 +1687,17 @@ None,Жоден,module,Magento_Usps
 "All Websites","Всі Веб-сайти",module,Magento_Weee
 Tax,Податок,module,Magento_Weee
 Action,Дія,module,Magento_Weee
+label,етикетка,module,Magento_Widget
 Choose...,Виберіть...,module,Magento_Widget
 Close,Закрити,module,Magento_Widget
 "Save and Continue Edit","Зберегти та Продовжити Редагування",module,Magento_Widget
+"Custom Layouts","Користувацька розмітка",module,Magento_Widget
+"Page Layouts","Розмітка сторінки",module,Magento_Widget
 Type,Тип,module,Magento_Widget
 "Sort Order","Порядок Сортування",module,Magento_Widget
+Categories,Категорії,module,Magento_Widget
+"All Pages","Всі сторінки",module,Magento_Widget
+"Design Theme","Дизайн Теми",module,Magento_Widget
 description,опис,module,Magento_Widget
 Template,Шаблон,module,Magento_Widget
 All,Всі,module,Magento_Widget
@@ -1643,8 +1742,10 @@ OK,Гаразд,module,Magento_Catalog
 "Create Category","Створити категорію",module,Magento_Catalog
 "unselect all","Зняти виділення з усього",module,Magento_Catalog
 "Incl. Tax","З податками",module,Magento_ConfigurableProduct
+"Add Products to Group","Додати товари до групи",module,Magento_GroupedProduct
 "Add Selected Products","Додати вибрані товари",module,Magento_GroupedProduct
 "Add Products","Додати Продукти",module,Magento_Sales
+Ok,OK,module,Magento_Sales
 "Use HTTPS to Get Feed","Використовувати HTTPS для отримання стрічки новин",module,Magento_AdminNotification
 "Update Frequency","Частота оновлення",module,Magento_AdminNotification
 "Last Update","Останнє оновлення",module,Magento_AdminNotification
@@ -1982,6 +2083,7 @@ Details,Докладно,module,Magento_Catalog
 "Cart Subtotal","Проміжний підсумок кошика",module,Magento_Checkout
 "Not yet calculated","Ще не підраховано",module,Magento_Checkout
 "Thank you for your purchase!","Дякуємо за покупку!",module,Magento_Checkout
+"CMS Page","CMS Сторінка",module,Magento_Cms
 Template,Шаблон,module,Magento_Cms
 Contacts,Контакти,module,Magento_Contact
 "Contact Us","Зв'яжіться з нами",module,Magento_Contact
@@ -1990,7 +2092,11 @@ Contacts,Контакти,module,Magento_Contact
 "Send Emails To","Надсилати електронні листи на",module,Magento_Contact
 "Email Sender","Відправник електронного листа",module,Magento_Contact
 "Email Template","Шаблон електронного листа",module,Magento_Contact
+"Enable Automatic Assignment to Customer Group","Увімкнути автоматичне присвоєння групи покупцю",module,Magento_Customer
+"Redirect Customer to Account Dashboard after Logging in","Після входу в систему перенаправити клієнта на панель управління в акаунті",module,Magento_Customer
 Group,Група,module,Magento_Customer
+"Unsubscribe from Newsletter","Відписатися від розсилки новин",module,Magento_Customer
+"Assign a Customer Group","Назначити групу покупців",module,Magento_Customer
 Phone,Телефон,module,Magento_Customer
 "First Name",Ім'я,module,Magento_Customer
 "Last Name",Прізвище,module,Magento_Customer
@@ -1998,17 +2104,22 @@ Type,Тип,module,Magento_Customer
 "Edit Account Information","Редагувати обліковий запис",module,Magento_Customer
 "My Dashboard","Моя приладова дошка",module,Magento_Customer
 Title,Назва,module,Magento_Dhl
+Password,Пароль,module,Magento_Dhl
+"Content Type","Тип контенту",module,Magento_Dhl
 Size,Розмір,module,Magento_Dhl
 "Sort Order","Порядок Сортування",module,Magento_Dhl
 Enabled,Ввімкнено,module,Magento_Directory
 Updated,Оновлено,module,Magento_Email
 Action,Дія,module,Magento_Email
 Title,Назва,module,Magento_Fedex
+Key,Ключ,module,Magento_Fedex
+Password,Пароль,module,Magento_Fedex
 "Sort Order","Порядок Сортування",module,Magento_Fedex
 Description,Опис,module,Magento_Indexer
 Status,Статус,module,Magento_Indexer
 Updated,Оновлено,module,Magento_Indexer
 Status,Статус,module,Magento_Integration
+"Select Shipping Method","Оберіть спосіб доставки",module,Magento_Multishipping
 "Subscription Options","Варіанти підписки",module,Magento_Newsletter
 Status,Статус,module,Magento_Newsletter
 Unsubscribe,Відписатися,module,Magento_Newsletter
@@ -2028,41 +2139,53 @@ Price,Ціна,module,Magento_OfflineShipping
 "Sort Order","Порядок Сортування",module,Magento_OfflineShipping
 Title,Назва,module,Magento_OfflineShipping
 Type,Тип,module,Magento_OfflineShipping
+"Home Page","Домашня сторінка",module,Magento_Paypal
 Position,Позиція,module,Magento_Paypal
 Size,Розмір,module,Magento_Paypal
 Title,Назва,module,Magento_Paypal
 "Sort Order","Порядок Сортування",module,Magento_Paypal
 Enabled,Ввімкнено,module,Magento_Paypal
 Login,Увійти,module,Magento_Paypal
+"Page Style","Стиль сторінки",module,Magento_Paypal
 User,Користувач,module,Magento_Paypal
+Dashboard,"Панель управління",module,Magento_Reports
 Guest,Гість,module,Magento_Reports
 Action,Дія,module,Magento_Reports
 Description,Опис,module,Magento_Reports
 "Web Site",Веб-сайт,module,Magento_SalesRule
 General,Загальні,module,Magento_Sales
 Address,Адреса,module,Magento_Sales
+Dashboard,"Панель управління",module,Magento_Sales
+"Orders Cron Settings","Налаштування крону для замовленнь",module,Magento_Sales
 Enabled,Ввімкнено,module,Magento_Sales
 Name,Ім'я,module,Magento_Sales
 Phone,Телефон,module,Magento_Sales
 "Ship-to Name","Ім'я отримувача",module,Magento_Sales
+"Search Engine","Пошукова система",module,Magento_Search
 "Email to a Friend","Надіслати другу",module,Magento_SendFriend
 Enabled,Ввімкнено,module,Magento_SendFriend
 "ZIP/Postal Code","Поштовий індекс",module,Magento_Shipping
 City,Місто,module,Magento_Shipping
 "Street Address","Адреса (вулиця, номер будинку та квартири...)",module,Magento_Shipping
+"Shipping Methods","Способи доставки",module,Magento_Shipping
+"Categories Options","Опції категорій",module,Magento_Sitemap
+"CMS Pages Options","Опції CMS сторінок",module,Magento_Sitemap
 Enabled,Ввімкнено,module,Magento_Sitemap
 Action,Дія,module,Magento_Sitemap
+Layouts,Розмітка,module,Magento_Store
 "Shopping Cart Display Settings","Налаштування відображення Кошика",module,Magento_Tax
 Rate,Ставка,module,Magento_Tax
 "Default Description","Опис за замовчуванням",module,Magento_Theme
 Translations,Переклади,module,Magento_Translation
 "Translation files.","Файли перекладу.",module,Magento_Translation
+Password,Пароль,module,Magento_Ups
 "Sort Order","Порядок Сортування",module,Magento_Ups
 Title,Назва,module,Magento_Ups
 Action,Дія,module,Magento_UrlRewrite
 Edit,Редагувати,module,Magento_UrlRewrite
 "Password Change","Зміна пароля",module,Magento_User
 Title,Назва,module,Magento_Usps
+Password,Пароль,module,Magento_Usps
 Size,Розмір,module,Magento_Usps
 Width,Ширина,module,Magento_Usps
 "Sort Order","Порядок Сортування",module,Magento_Usps
