@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_uk_ua",
   "description": "Ukrainian (українська) Magento2 Language Pack (uk_UA) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
